@@ -13,7 +13,7 @@ The export notebook applies these filters:
 - **Product:** Mortgage  
 - **Narrative:** `has_narrative=true` (consumer-submitted narrative text present)  
 - **Consent:** `consumer_consent_provided=Consent provided`  
-- **Date received:** `2025-01-01` inclusive through **before** `2026-01-01` (calendar year 2025; `date_received_max` is exclusive in the API)
+- **Date received:** `2025-01-01` inclusive through **before** `2026-03-01` (calendar year 2025; `date_received_max` is exclusive in the API)
 
 ### Output file
 
@@ -21,9 +21,9 @@ The export notebook applies these filters:
 |------|--------|
 | Path | `data/mortgage_2025_narrative_consent.csv` |
 | Encoding | UTF-8 |
-| Row count | **14,010** complaint rows (plus one header row) |
+| Row count | **15,755** complaint rows (plus one header row) |
 
-**Note:** `complaint_what_happened` often contains newlines. The file may have **many more physical lines** than 14,010; row count should be checked with a CSV-aware tool (Python `csv` module, pandas, etc.), not `wc -l`.
+**Note:** `complaint_what_happened` often contains newlines. The file may have **many more physical lines** than 15,755; row count should be checked with a CSV-aware tool (Python `csv` module, pandas, etc.), not `wc -l`.
 
 ### Columns
 
