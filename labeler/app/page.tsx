@@ -65,7 +65,10 @@ export default function Home() {
       const progData: Progress = await progRes.json();
       setProgress(progData);
       if (nextData.complaint) {
-        setComplaint(nextData.complaint);
+        setComplaint({
+        ...nextData.complaint,
+        complaint_what_happened: highlightText(nextData.complaint!.complaint_what_happened)
+        });
         setDone(false);
       } else {
         setComplaint(null);
@@ -132,6 +135,28 @@ export default function Home() {
     void fetchNext(name, nextSkipped);
   }
 
+  function highlightText(str: string | string[] | null | undefined): React.ReactNode {
+  const keywords = ['Deceit', 'Fraud', 'Legal', 'Serious'];
+
+  if (!str || str === 'No narrative') return 'No narrative';
+
+  const text = Array.isArray(str) ? str.join(' ') : String(str);
+
+  const escaped = keywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  const dollarPattern = `\\$\\d+(?:\\.\\d+)?`;
+  const keywordRegex = new RegExp(`(${escaped.join('|')})`, 'gi');
+  const dollarRegex = new RegExp(`(${dollarPattern})`);
+  const combinedRegex = new RegExp(`(${[dollarPattern, ...escaped].join('|')})`, 'gi');
+
+  return text.split(combinedRegex).map((part, i) => {
+    if (dollarRegex.test(part))
+      return <span key={i} style={{ backgroundColor: 'yellow', fontWeight: 'bold' }}>{part}</span>;
+    if (keywordRegex.test(part))
+      return <span key={i} style={{ backgroundColor: 'red', fontWeight: 'bold', color: 'white' }}>{part}</span>;
+    return part;
+  });
+}
+
   if (!name) {
     return (
       <div className="container">
@@ -182,7 +207,7 @@ export default function Home() {
               {complaint.sub_issue ? <> · <strong>Sub-issue:</strong> {complaint.sub_issue}</> : null}
               {' '}· <strong>Labels so far:</strong> {complaint.label_count}/3
             </div>
-            <div className="text">{complaint.complaint_what_happened || '(no narrative)'}</div>
+            <div className="text">{complaint.complaint_what_happened || 'No narrative'}</div>
           </div>
 
           <fieldset disabled={loading}>
