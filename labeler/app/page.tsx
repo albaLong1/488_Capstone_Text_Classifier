@@ -154,6 +154,7 @@ export default function Home() {
         <span>Your labels <strong>{progress?.perLabeler?.[name] ?? 0}</strong></span>
         <span className="spacer" />
         <Link href="/history" className="link" style={{ color: '#0645ad', textDecoration: 'underline' }}>My labels</Link>
+        <Link href="/game" className="link" style={{ color: '#0645ad', textDecoration: 'underline' }}>🎮 Break</Link>
         <button onClick={signOut} className="link">Sign out</button>
       </header>
 
