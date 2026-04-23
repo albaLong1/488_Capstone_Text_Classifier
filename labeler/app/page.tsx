@@ -30,9 +30,15 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [skipped, setSkipped] = useState<number[]>([]);
 
-  const [unfairness, setUnfairness] = useState('');
+  const [unfairness, setUnfairness] = useState<string[]>([]);
   const [justice, setJustice] = useState('');
   const [severity, setSeverity] = useState('');
+
+  function toggleUnfairness(value: string) {
+    setUnfairness((prev) =>
+      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value],
+    );
+  }
 
   useEffect(() => {
     const saved = localStorage.getItem('labeler_name');
@@ -42,7 +48,7 @@ export default function Home() {
   const fetchNext = useCallback(async (activeName: string, skipList: number[]) => {
     setLoading(true);
     setError(null);
-    setUnfairness('');
+    setUnfairness([]);
     setJustice('');
     setSeverity('');
     try {
@@ -77,7 +83,7 @@ export default function Home() {
   }, [name, fetchNext]);
 
   async function submit() {
-    if (!complaint || !name || !unfairness || !justice || !severity) return;
+    if (!complaint || !name || unfairness.length === 0 || !justice || !severity) return;
     setLoading(true);
     setError(null);
     try {
@@ -180,15 +186,15 @@ export default function Home() {
           </div>
 
           <fieldset disabled={loading}>
-            <legend>Unfairness type</legend>
+            <legend>Unfairness type (pick one or more)</legend>
             {UNFAIRNESS_OPTIONS.map((o) => (
               <label key={o.value}>
                 <input
-                  type="radio"
+                  type="checkbox"
                   name="unfairness"
                   value={o.value}
-                  checked={unfairness === o.value}
-                  onChange={() => setUnfairness(o.value)}
+                  checked={unfairness.includes(o.value)}
+                  onChange={() => toggleUnfairness(o.value)}
                 />
                 <strong>{o.label}</strong>
                 {o.hint && <span className="hint"> — {o.hint}</span>}
@@ -233,7 +239,7 @@ export default function Home() {
           <div className="actions">
             <button
               onClick={submit}
-              disabled={loading || !unfairness || !justice || !severity}
+              disabled={loading || unfairness.length === 0 || !justice || !severity}
             >
               Submit & next
             </button>

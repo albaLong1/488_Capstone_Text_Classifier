@@ -172,7 +172,8 @@ fieldset label .hint {
   color: var(--text-muted);
   font-size: 13px;
 }
-fieldset input[type="radio"] {
+fieldset input[type="radio"],
+fieldset input[type="checkbox"] {
   margin-right: 8px;
   accent-color: var(--primary);
 }

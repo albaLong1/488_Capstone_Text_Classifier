@@ -18,6 +18,6 @@ export const SEVERITY_OPTIONS = [
   { value: 'high', label: 'High', hint: '$1,000+, fraud / discrimination / legal threat / severe distress' },
 ] as const;
 
-export const VALID_UNFAIRNESS = new Set(UNFAIRNESS_OPTIONS.map((o) => o.value));
-export const VALID_JUSTICE = new Set(JUSTICE_OPTIONS.map((o) => o.value));
-export const VALID_SEVERITY = new Set(SEVERITY_OPTIONS.map((o) => o.value));
+export const VALID_UNFAIRNESS: Set<string> = new Set(UNFAIRNESS_OPTIONS.map((o) => o.value));
+export const VALID_JUSTICE: Set<string> = new Set(JUSTICE_OPTIONS.map((o) => o.value));
+export const VALID_SEVERITY: Set<string> = new Set(SEVERITY_OPTIONS.map((o) => o.value));

@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic';
 type LabelRow = {
   complaint_id: number;
   labeler_name: string;
-  unfairness_type: string;
+  unfairness_type: string[];
   justice_violation: string;
   severity: string;
   created_at: string;
@@ -107,6 +107,20 @@ export async function GET(req: Request) {
     return tied ? 'tie' : best;
   };
 
+  // For multi-label unfairness: a tag is in the "consensus" if >=2 of 3
+  // labelers picked it. Returns tags semicolon-joined (stable order).
+  const multiConsensus = (perLabeler: string[][]): string => {
+    const counts = new Map<string, number>();
+    for (const tags of perLabeler) {
+      for (const t of new Set(tags)) {
+        counts.set(t, (counts.get(t) ?? 0) + 1);
+      }
+    }
+    const agreed: string[] = [];
+    for (const [t, c] of counts) if (c >= 2) agreed.push(t);
+    return agreed.sort().join(';');
+  };
+
   const lines: string[] = [headers.join(',')];
   for (const c of (complaints ?? []) as ComplaintRow[]) {
     const ls = (byId.get(c.id) ?? []).slice(0, 3);
@@ -120,11 +134,17 @@ export async function GET(req: Request) {
     ];
     for (let i = 0; i < 3; i++) {
       const l = ls[i];
-      row.push(l?.labeler_name ?? '', l?.unfairness_type ?? '', l?.justice_violation ?? '', l?.severity ?? '');
+      const tags = Array.isArray(l?.unfairness_type) ? l!.unfairness_type : [];
+      row.push(
+        l?.labeler_name ?? '',
+        tags.slice().sort().join(';'),
+        l?.justice_violation ?? '',
+        l?.severity ?? '',
+      );
     }
     if (complete) {
       row.push(
-        majority(ls.map((l) => l.unfairness_type)),
+        multiConsensus(ls.map((l) => (Array.isArray(l.unfairness_type) ? l.unfairness_type : []))),
         majority(ls.map((l) => l.justice_violation)),
         majority(ls.map((l) => l.severity)),
       );

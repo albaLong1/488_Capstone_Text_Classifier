@@ -10,14 +10,19 @@ export async function POST(req: Request) {
 
   const complaint_id = Number(body.complaint_id);
   const labeler_name = typeof body.labeler_name === 'string' ? body.labeler_name.trim() : '';
-  const unfairness_type = body.unfairness_type;
+  const unfairnessRaw = body.unfairness_type;
   const justice_violation = body.justice_violation;
   const severity = body.severity;
+
+  const unfairness_type = Array.isArray(unfairnessRaw)
+    ? Array.from(new Set(unfairnessRaw.filter((v) => typeof v === 'string')))
+    : [];
 
   if (
     !Number.isFinite(complaint_id) ||
     !labeler_name ||
-    !VALID_UNFAIRNESS.has(unfairness_type) ||
+    unfairness_type.length === 0 ||
+    unfairness_type.some((v) => !VALID_UNFAIRNESS.has(v)) ||
     !VALID_JUSTICE.has(justice_violation) ||
     !VALID_SEVERITY.has(severity)
   ) {

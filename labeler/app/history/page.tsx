@@ -7,7 +7,7 @@ import { JUSTICE_OPTIONS, SEVERITY_OPTIONS, UNFAIRNESS_OPTIONS } from '@/lib/opt
 type MyLabel = {
   id: number;
   complaint_id: number;
-  unfairness_type: string;
+  unfairness_type: string[];
   justice_violation: string;
   severity: string;
   created_at: string;
@@ -114,7 +114,9 @@ export default function History() {
             <div style={{ marginTop: 10, fontSize: 13, lineHeight: 1.7 }}>
               <div>
                 <strong>Unfairness:</strong>{' '}
-                {lookup.unfairness.get(l.unfairness_type) ?? l.unfairness_type}
+                {(Array.isArray(l.unfairness_type) ? l.unfairness_type : [])
+                  .map((v) => lookup.unfairness.get(v) ?? v)
+                  .join(', ') || '—'}
               </div>
               <div>
                 <strong>Justice:</strong>{' '}
