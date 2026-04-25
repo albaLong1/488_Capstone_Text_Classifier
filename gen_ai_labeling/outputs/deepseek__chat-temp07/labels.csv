@@ -1,0 +1,1001 @@
+complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
+11333660,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:30.002290+00:00
+11343508,deepseek__chat-temp07,"[""delay""]",procedural,low,2026-04-24T15:04:02.226500+00:00
+11349436,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:22.312329+00:00
+11352476,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:13.453441+00:00
+11352902,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:17.163460+00:00
+11352953,deepseek__chat-temp07,"[""unethical_collections"", ""none_other""]",interactional,medium,2026-04-24T15:04:32.238597+00:00
+11384698,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:01.300941+00:00
+11385028,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:57.633530+00:00
+11386695,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:29.894705+00:00
+11389746,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:36.131085+00:00
+11389752,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:05.850880+00:00
+11389795,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:36.841457+00:00
+11391542,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:09.484367+00:00
+11401223,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:05.112954+00:00
+11401851,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:12.447165+00:00
+11410111,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:14.178173+00:00
+11411165,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:03:56.590613+00:00
+11414280,deepseek__chat-temp07,"[""excessive_charge""]",procedural,low,2026-04-24T15:03:54.251015+00:00
+11428232,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:49.100341+00:00
+11428519,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:34.107549+00:00
+11433091,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:46.190412+00:00
+11437903,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:11.998173+00:00
+11442840,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,low,2026-04-24T15:04:37.723576+00:00
+11450037,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:06.104506+00:00
+11452854,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:25.079872+00:00
+11455052,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:42.642036+00:00
+11455678,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:27.692106+00:00
+11465631,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:18.238036+00:00
+11466371,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:53.194246+00:00
+11466600,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:53.768930+00:00
+11468296,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:37.285186+00:00
+11471832,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:41.046944+00:00
+11472493,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:14.932163+00:00
+11479617,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:39.426380+00:00
+11498537,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:42.333446+00:00
+11503359,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:34.449019+00:00
+11519020,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",distributive,high,2026-04-24T15:04:44.422302+00:00
+11522131,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:04.670169+00:00
+11551907,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:19.294272+00:00
+11575022,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:56.059329+00:00
+11593109,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:36.432710+00:00
+11596070,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:50.446248+00:00
+11601734,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:27.372582+00:00
+11634807,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:15.983869+00:00
+11638311,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-24T15:03:54.276951+00:00
+11651442,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:31.457775+00:00
+11653905,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:23.630295+00:00
+11682130,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:57.810156+00:00
+11685621,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:03:57.674671+00:00
+11691460,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:51.236076+00:00
+11706286,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:04.804212+00:00
+11707658,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:01.831704+00:00
+11716590,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:19.324372+00:00
+11718118,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:03.050760+00:00
+11720286,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:31.955883+00:00
+11720589,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:23.668624+00:00
+11727292,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:35.660571+00:00
+11731528,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",interactional,high,2026-04-24T15:04:02.357585+00:00
+11742198,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:06.022991+00:00
+11742235,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:48.816525+00:00
+11767791,deepseek__chat-temp07,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T15:04:32.814406+00:00
+11774684,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:08.430671+00:00
+11791676,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:18.321055+00:00
+11796802,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:27.540671+00:00
+11802320,deepseek__chat-temp07,"[""unaware_of_charge""]",interactional,medium,2026-04-24T15:03:56.489043+00:00
+11809341,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:50.815637+00:00
+11822134,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:28.351219+00:00
+11823240,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:07.163426+00:00
+11824367,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:26.120405+00:00
+11826614,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:53.489469+00:00
+11832565,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:44.390629+00:00
+11848481,deepseek__chat-temp07,"[""unethical_collections""]",procedural,medium,2026-04-24T15:04:02.352311+00:00
+11856132,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,low,2026-04-24T15:04:26.992622+00:00
+11868297,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",interactional,high,2026-04-24T15:04:43.519036+00:00
+11869185,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:42.456804+00:00
+11870784,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:46.415176+00:00
+11871327,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:28.939682+00:00
+11874614,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:03:52.910022+00:00
+11889682,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:22.274989+00:00
+11893799,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:43.246231+00:00
+11911670,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:43.608443+00:00
+11913076,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:09.221603+00:00
+11914519,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:28.721984+00:00
+11916711,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:24.618938+00:00
+11924703,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:03:53.746079+00:00
+11930190,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:03:50.013383+00:00
+11931735,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",interactional,medium,2026-04-24T15:04:41.514825+00:00
+11941304,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:37.735736+00:00
+11944490,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:43.552156+00:00
+11951733,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:42.656127+00:00
+11964312,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:15.500175+00:00
+11966657,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:58.193631+00:00
+11972763,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:37.482632+00:00
+11976040,deepseek__chat-temp07,"[""delay""]",distributive,high,2026-04-24T15:03:46.099348+00:00
+11976464,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:24.374319+00:00
+11981359,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:20.305578+00:00
+11994823,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:28.977685+00:00
+12000232,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:06.696880+00:00
+12003464,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:00.287442+00:00
+12013129,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:08.726575+00:00
+12017829,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:15.983190+00:00
+12019568,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:04.763136+00:00
+12019692,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:47.237657+00:00
+12021298,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:42.404719+00:00
+12022499,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:41.155255+00:00
+12023953,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:33.577468+00:00
+12028578,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:06.330324+00:00
+12038412,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,high,2026-04-24T15:03:51.867269+00:00
+12051412,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:42.761316+00:00
+12054372,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:29.434603+00:00
+12059449,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:14.932634+00:00
+12071097,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:58.012345+00:00
+12090909,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:56.900214+00:00
+12100609,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:09.526551+00:00
+12102243,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:16.077004+00:00
+12103287,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:43.858430+00:00
+12107841,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:39.609250+00:00
+12119764,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:13.373810+00:00
+12126609,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:14.071273+00:00
+12126622,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:42.428562+00:00
+12131233,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:09.395529+00:00
+12135137,deepseek__chat-temp07,"[""delay"", ""unethical_collections"", ""none_other""]",procedural,high,2026-04-24T15:03:42.619771+00:00
+12138007,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:10.219159+00:00
+12138388,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:12.340664+00:00
+12139767,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:21.753875+00:00
+12147768,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:26.505214+00:00
+12151870,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:55.900194+00:00
+12164886,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:55.535904+00:00
+12166343,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:55.749380+00:00
+12183287,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:37.483118+00:00
+12193044,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:41.275973+00:00
+12220824,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:30.518832+00:00
+12222853,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:00.431248+00:00
+12243071,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:23.323040+00:00
+12245465,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:29.920042+00:00
+12265086,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:13.922258+00:00
+12270204,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:03:52.529806+00:00
+12277172,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:22.317284+00:00
+12297398,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:08.287915+00:00
+12314619,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:26.339979+00:00
+12314688,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:43.249022+00:00
+12323815,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""none_other""]",distributive,high,2026-04-24T15:03:52.179064+00:00
+12323970,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:57.910981+00:00
+12329307,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:13.475380+00:00
+12332364,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:48.312258+00:00
+12341377,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",distributive,high,2026-04-24T15:04:24.251775+00:00
+12349846,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:03:55.219356+00:00
+12349984,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:25.599978+00:00
+12350348,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:01.831104+00:00
+12365397,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:28.974987+00:00
+12366382,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:54.141482+00:00
+12367375,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:49.244729+00:00
+12368440,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:17.114871+00:00
+12384425,deepseek__chat-temp07,"[""none_other""]",distributive,medium,2026-04-24T15:04:41.415704+00:00
+12402909,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:20.701491+00:00
+12408616,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-24T15:04:26.514130+00:00
+12409264,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:16.858563+00:00
+12411531,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:50.070012+00:00
+12413457,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:45.175729+00:00
+12419844,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T15:03:42.430517+00:00
+12420096,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:40.734738+00:00
+12447349,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",interactional,medium,2026-04-24T15:04:31.191879+00:00
+12451128,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:51.241679+00:00
+12454425,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:19.428585+00:00
+12456486,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:17.648155+00:00
+12463292,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:01.591033+00:00
+12486843,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:42.736731+00:00
+12497140,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:03.397000+00:00
+12499018,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:01.832326+00:00
+12501015,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",interactional,high,2026-04-24T15:04:09.723757+00:00
+12501071,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:30.362641+00:00
+12502572,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:03:51.446350+00:00
+12503272,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:54.487459+00:00
+12507673,deepseek__chat-temp07,"[""excessive_charge""]",procedural,high,2026-04-24T15:03:43.693695+00:00
+12508961,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:07.066733+00:00
+12535022,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:18.444453+00:00
+12537166,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:26.582938+00:00
+12554943,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:03:59.279500+00:00
+12559400,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:12.897304+00:00
+12569382,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:38.411792+00:00
+12584925,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:31.503511+00:00
+12623596,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:34.861669+00:00
+12624818,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:58.916387+00:00
+12651990,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:43.817971+00:00
+12654170,deepseek__chat-temp07,"[""delay"", ""unethical_collections"", ""none_other""]",interactional,high,2026-04-24T15:04:15.983521+00:00
+12654706,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:50.369306+00:00
+12658362,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:39.293103+00:00
+12658774,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:55.689394+00:00
+12659590,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",distributive,medium,2026-04-24T15:04:42.051202+00:00
+12670079,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:47.356026+00:00
+12684462,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:13.898193+00:00
+12688053,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:20.319839+00:00
+12689414,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:03:49.651372+00:00
+12709190,deepseek__chat-temp07,"[""delay""]",distributive,high,2026-04-24T15:03:52.718021+00:00
+12722351,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:42.521281+00:00
+12730057,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""none_other""]",distributive,high,2026-04-24T15:04:37.198942+00:00
+12750249,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:14.701397+00:00
+12765836,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:48.730879+00:00
+12768623,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:22.311759+00:00
+12772643,deepseek__chat-temp07,"[""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:31.365084+00:00
+12773820,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:09.716700+00:00
+12785127,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:09.498091+00:00
+12801199,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:13.788578+00:00
+12809459,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:45.973482+00:00
+12813605,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:12.357528+00:00
+12820055,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:21.129353+00:00
+12826333,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:40.297717+00:00
+12831361,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:06.954032+00:00
+12832561,deepseek__chat-temp07,"[""none_other""]",interactional,high,2026-04-24T15:04:43.780562+00:00
+12843055,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:43.101127+00:00
+12852228,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:32.353293+00:00
+12852514,deepseek__chat-temp07,"[""delay""]",interactional,medium,2026-04-24T15:04:29.515352+00:00
+12855049,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:35.385361+00:00
+12856474,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:04.974439+00:00
+12857585,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:04.450961+00:00
+12861607,deepseek__chat-temp07,"[""delay"", ""unethical_collections"", ""none_other""]",procedural,high,2026-04-24T15:03:51.491310+00:00
+12867821,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:44.885803+00:00
+12882439,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:06.240978+00:00
+12883263,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:49.587207+00:00
+12887026,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",distributive,high,2026-04-24T15:04:05.842676+00:00
+12890747,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:25.949498+00:00
+12892025,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:34.862634+00:00
+12912655,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:57.634670+00:00
+12933172,deepseek__chat-temp07,"[""delay""]",interactional,medium,2026-04-24T15:04:41.362187+00:00
+12933885,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:35.907529+00:00
+12938469,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:12.497988+00:00
+12948813,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:03:57.104652+00:00
+12951295,deepseek__chat-temp07,"[""none_other""]",interactional,medium,2026-04-24T15:04:33.876639+00:00
+12963301,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:08.475545+00:00
+12971034,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:19.650484+00:00
+12986789,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:34.877424+00:00
+12986830,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:36.961389+00:00
+12995119,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:39.474401+00:00
+12997101,deepseek__chat-temp07,"[""unethical_collections""]",procedural,medium,2026-04-24T15:03:42.427953+00:00
+13000870,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:11.987339+00:00
+13015485,deepseek__chat-temp07,"[""none_other""]",interactional,medium,2026-04-24T15:04:19.130511+00:00
+13015850,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:52.167810+00:00
+13019112,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:24.980090+00:00
+13027323,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:17.852833+00:00
+13033003,deepseek__chat-temp07,"[""excessive_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:05.630139+00:00
+13043595,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",distributive,high,2026-04-24T15:03:59.280586+00:00
+13046202,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:40.630226+00:00
+13051130,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:01.148363+00:00
+13059464,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:27.590194+00:00
+13064809,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:24.796103+00:00
+13074073,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:07.595947+00:00
+13074997,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:19.545606+00:00
+13078312,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:42.049648+00:00
+13084848,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:34.464726+00:00
+13086479,deepseek__chat-temp07,"[""unaware_of_charge""]",interactional,medium,2026-04-24T15:04:44.186150+00:00
+13088313,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:11.008414+00:00
+13089058,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:11.300191+00:00
+13110967,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:21.486830+00:00
+13113813,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:22.612941+00:00
+13116804,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:35.689457+00:00
+13117467,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:41.907229+00:00
+13129271,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-24T15:04:15.104195+00:00
+13133809,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:32.769247+00:00
+13136990,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:29.218500+00:00
+13143690,deepseek__chat-temp07,"[""delay""]",interactional,high,2026-04-24T15:03:44.811736+00:00
+13158332,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T15:03:47.669902+00:00
+13159531,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:39.731188+00:00
+13193172,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:39.793216+00:00
+13201708,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:42.080751+00:00
+13204303,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:16.620086+00:00
+13220607,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:37.478649+00:00
+13221914,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:35.686430+00:00
+13222069,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:41.749159+00:00
+13230416,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:36.168598+00:00
+13237213,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-24T15:04:14.140553+00:00
+13245986,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:12.308534+00:00
+13248757,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:03:49.536068+00:00
+13255548,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,high,2026-04-24T15:04:04.568144+00:00
+13268835,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:16.223530+00:00
+13269014,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:55.292021+00:00
+13271542,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:02.992217+00:00
+13271550,deepseek__chat-temp07,"[""delay"", ""none_other""]",interactional,medium,2026-04-24T15:04:22.008146+00:00
+13276899,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:38.418087+00:00
+13277447,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:41.553947+00:00
+13281744,deepseek__chat-temp07,"[""delay""]",interactional,medium,2026-04-24T15:04:25.275152+00:00
+13285907,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:32.769790+00:00
+13291594,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:06.189368+00:00
+13297504,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,high,2026-04-24T15:04:01.825245+00:00
+13298213,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:50.475132+00:00
+13310605,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:22.891998+00:00
+13312607,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:03:46.630053+00:00
+13318309,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:35.908514+00:00
+13328571,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:43.994738+00:00
+13332784,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:57.135757+00:00
+13334745,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:42.080054+00:00
+13335515,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:23.896730+00:00
+13348980,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:29.818232+00:00
+13351575,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:01.365811+00:00
+13357175,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:25.047556+00:00
+13383649,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:03:48.752134+00:00
+13385771,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:03.188076+00:00
+13396957,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:58.300066+00:00
+13400651,deepseek__chat-temp07,"[""none_other""]",distributive,high,2026-04-24T15:04:25.531380+00:00
+13418972,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:39.939482+00:00
+13428089,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",interactional,high,2026-04-24T15:03:43.762018+00:00
+13444129,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:42.429834+00:00
+13464664,deepseek__chat-temp07,"[""none_other""]",distributive,high,2026-04-24T15:03:59.998441+00:00
+13485834,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:33.428037+00:00
+13488117,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:23.847966+00:00
+13497656,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:42.957484+00:00
+13518075,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:05.089168+00:00
+13522935,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:17.737016+00:00
+13536172,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:48.787237+00:00
+13549191,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:48.002210+00:00
+13551332,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:28.393606+00:00
+13558826,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:33.049301+00:00
+13566099,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:15.056565+00:00
+13568184,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:22.060636+00:00
+13575816,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:05.700716+00:00
+13582981,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:38.658432+00:00
+13583269,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:56.749339+00:00
+13587481,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:03:51.342310+00:00
+13591849,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:43.696694+00:00
+13592296,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",interactional,high,2026-04-24T15:03:47.504278+00:00
+13600276,deepseek__chat-temp07,"[""delay""]",distributive,high,2026-04-24T15:04:02.748371+00:00
+13605248,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:27.531908+00:00
+13611491,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:08.403416+00:00
+13612977,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:03.920263+00:00
+13619485,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:52.679524+00:00
+13640445,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,high,2026-04-24T15:04:12.840700+00:00
+13643574,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:47.755168+00:00
+13658932,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:28.949656+00:00
+13667894,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:37.151645+00:00
+13668747,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:05.615875+00:00
+13671978,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:08.956657+00:00
+13698848,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:03:58.677509+00:00
+13734113,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:03:52.669666+00:00
+13735670,deepseek__chat-temp07,"[""unethical_collections""]",interactional,medium,2026-04-24T15:04:08.845984+00:00
+13735994,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:55.235395+00:00
+13744389,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:00.555270+00:00
+13749179,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:34.889327+00:00
+13750264,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:11.472918+00:00
+13761075,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:22.103850+00:00
+13763469,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:52.015448+00:00
+13765164,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:10.815056+00:00
+13792978,deepseek__chat-temp07,"[""none_other""]",distributive,high,2026-04-24T15:04:09.760562+00:00
+13794116,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:58.242495+00:00
+13817860,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:04.339692+00:00
+13818373,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:50.023218+00:00
+13819490,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:48.730225+00:00
+13822727,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:36.062203+00:00
+13823002,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:00.844031+00:00
+13825209,deepseek__chat-temp07,"[""unethical_collections""]",interactional,medium,2026-04-24T15:03:57.704840+00:00
+13827388,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:54.679505+00:00
+13832705,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge"", ""unethical_collections""]",distributive,high,2026-04-24T15:04:40.099464+00:00
+13846800,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:14.577559+00:00
+13849000,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:13.885162+00:00
+13855043,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:03:45.312152+00:00
+13860992,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:58.251003+00:00
+13875321,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:07.595203+00:00
+13890803,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:23.342937+00:00
+13899038,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:56.419673+00:00
+13923211,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:58.761365+00:00
+13924900,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,high,2026-04-24T15:04:33.509007+00:00
+13935895,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:08.453850+00:00
+13958141,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:05.899747+00:00
+13961800,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:24.538509+00:00
+13966994,deepseek__chat-temp07,"[""none_other""]",interactional,low,2026-04-24T15:03:56.262768+00:00
+13975881,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",interactional,high,2026-04-24T15:04:13.703521+00:00
+13976568,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:38.345925+00:00
+13978482,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:33.296712+00:00
+13993716,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:54.650002+00:00
+13995671,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:55.180043+00:00
+13995841,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:50.073655+00:00
+14005683,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:01.304233+00:00
+14059311,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:07.656256+00:00
+14060182,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:52.910507+00:00
+14071155,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,low,2026-04-24T15:04:33.055988+00:00
+14077168,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:01.554698+00:00
+14077259,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:17.641635+00:00
+14078618,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:53.022546+00:00
+14089671,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:14.687799+00:00
+14128678,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:23.848527+00:00
+14136663,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:44.937097+00:00
+14136966,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-24T15:04:30.823330+00:00
+14149355,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:59.988797+00:00
+14154053,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:28.753294+00:00
+14154247,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:16.741242+00:00
+14155450,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:18.987385+00:00
+14173185,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:32.457350+00:00
+14174827,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:25.763361+00:00
+14186904,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",distributive,medium,2026-04-24T15:04:13.146480+00:00
+14188858,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:42.677477+00:00
+14195288,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:37.533696+00:00
+14202411,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:42.240079+00:00
+14216211,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:11.315356+00:00
+14216249,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:06.023543+00:00
+14245338,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:32.238115+00:00
+14246426,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:44.487830+00:00
+14258502,deepseek__chat-temp07,"[""unethical_collections""]",interactional,low,2026-04-24T15:03:59.507030+00:00
+14276886,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:21.384088+00:00
+14280758,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:50.679278+00:00
+14281252,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:34.522017+00:00
+14296621,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:28.809803+00:00
+14304649,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:58.930682+00:00
+14307645,deepseek__chat-temp07,"[""none_other""]",distributive,high,2026-04-24T15:04:07.272934+00:00
+14311126,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:38.202204+00:00
+14313859,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:53.628139+00:00
+14314382,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:52.645129+00:00
+14324481,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:18.405162+00:00
+14331197,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",interactional,high,2026-04-24T15:03:58.833580+00:00
+14350623,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:20.987709+00:00
+14356846,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:24.897447+00:00
+14365235,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:47.379164+00:00
+14365315,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:35.231894+00:00
+14370426,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:25.045452+00:00
+14374704,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:36.225477+00:00
+14377878,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",distributive,medium,2026-04-24T15:04:26.149977+00:00
+14395579,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:43.631850+00:00
+14395775,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:03:56.704823+00:00
+14400449,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:18.978108+00:00
+14424873,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:21.482515+00:00
+14440315,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:04.451537+00:00
+14443246,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:15.704068+00:00
+14444667,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:49.807798+00:00
+14446093,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:45.095576+00:00
+14453927,deepseek__chat-temp07,"[""none_other""]",interactional,medium,2026-04-24T15:04:16.511544+00:00
+14470206,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:53.437889+00:00
+14479186,deepseek__chat-temp07,"[""delay"", ""none_other""]",interactional,medium,2026-04-24T15:04:08.292791+00:00
+14479408,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:50.926659+00:00
+14505591,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:58.813425+00:00
+14512093,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:57.634126+00:00
+14515596,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:40.624425+00:00
+14516305,deepseek__chat-temp07,"[""none_other""]",interactional,low,2026-04-24T15:03:42.325580+00:00
+14532199,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:14.990080+00:00
+14540832,deepseek__chat-temp07,"[""unaware_of_charge""]",interactional,medium,2026-04-24T15:04:07.589702+00:00
+14547020,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:43.727221+00:00
+14566305,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:28.286611+00:00
+14567541,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:54.262169+00:00
+14573709,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:15.334819+00:00
+14574353,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:45.046728+00:00
+14592535,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:47.443849+00:00
+14612214,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:18.092121+00:00
+14619080,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:11.267099+00:00
+14620078,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:44.774228+00:00
+14622518,deepseek__chat-temp07,"[""unethical_collections""]",interactional,high,2026-04-24T15:04:36.428304+00:00
+14623067,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:55.803786+00:00
+14624138,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:39.666371+00:00
+14636897,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",distributive,high,2026-04-24T15:04:27.533478+00:00
+14640869,deepseek__chat-temp07,"[""delay"", ""none_other""]",distributive,high,2026-04-24T15:04:30.759643+00:00
+14665976,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:31.014143+00:00
+14679594,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:57.700020+00:00
+14680760,deepseek__chat-temp07,"[""unaware_of_charge""]",interactional,low,2026-04-24T15:04:15.982853+00:00
+14681483,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:03:46.440893+00:00
+14681553,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:34.742933+00:00
+14687741,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:06.865414+00:00
+14702868,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:28.901050+00:00
+14704315,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:29.910357+00:00
+14704547,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:12.837014+00:00
+14705866,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:39.307192+00:00
+14710373,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:03:57.192047+00:00
+14714706,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:24.760580+00:00
+14718632,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:40.864670+00:00
+14725342,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:27.794479+00:00
+14728877,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:03:58.933900+00:00
+14734012,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:28.616266+00:00
+14738227,deepseek__chat-temp07,"[""none_other""]",distributive,medium,2026-04-24T15:04:11.282160+00:00
+14742065,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:30.027570+00:00
+14752769,deepseek__chat-temp07,"[""unethical_collections"", ""none_other""]",interactional,medium,2026-04-24T15:04:08.018351+00:00
+14754906,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:55.011612+00:00
+14766413,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:43.782301+00:00
+14775073,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:36.123319+00:00
+14777812,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:59.956152+00:00
+14784935,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:10.055214+00:00
+14786337,deepseek__chat-temp07,"[""none_other""]",interactional,low,2026-04-24T15:04:27.579165+00:00
+14803197,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:06.221708+00:00
+14804701,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:05.846888+00:00
+14817561,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:37.561968+00:00
+14834182,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:32.444671+00:00
+14840077,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:26.659084+00:00
+14861207,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:02.702104+00:00
+14869736,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:20.811758+00:00
+14882572,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:03:42.562596+00:00
+14908285,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:55.206548+00:00
+14909401,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:47.335026+00:00
+14910101,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:30.159842+00:00
+14915428,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",distributive,high,2026-04-24T15:04:33.965427+00:00
+14920303,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:02.955907+00:00
+14923441,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:15.744166+00:00
+14926968,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:38.407969+00:00
+14929529,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:45.936320+00:00
+14929681,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:34.987421+00:00
+14930563,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:44.298136+00:00
+14931133,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:36.010625+00:00
+14935706,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:00.428309+00:00
+14942676,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:15.469925+00:00
+14953492,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:34.332792+00:00
+14955898,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:53.958236+00:00
+14957822,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:46.098724+00:00
+14960869,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:46.247298+00:00
+14972281,deepseek__chat-temp07,"[""delay"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:04.195209+00:00
+14994111,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:35.155970+00:00
+14998436,deepseek__chat-temp07,"[""excessive_charge""]",procedural,high,2026-04-24T15:04:08.731046+00:00
+15009044,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:10.060687+00:00
+15013528,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:59.207569+00:00
+15019483,deepseek__chat-temp07,"[""unethical_collections"", ""none_other""]",procedural,high,2026-04-24T15:04:18.833134+00:00
+15021125,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:01.089555+00:00
+15032230,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:46.099999+00:00
+15066372,deepseek__chat-temp07,"[""excessive_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:38.007679+00:00
+15068443,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:55.536834+00:00
+15070425,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,medium,2026-04-24T15:04:30.366578+00:00
+15077525,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:51.346885+00:00
+15090337,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:07.195500+00:00
+15095246,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:24.984096+00:00
+15095649,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:57.746063+00:00
+15099110,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:21.417818+00:00
+15100917,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:18.427949+00:00
+15126478,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:00.483318+00:00
+15134915,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:42.440966+00:00
+15142893,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:17.460229+00:00
+15146736,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""none_other""]",interactional,high,2026-04-24T15:04:37.611919+00:00
+15147043,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:10.606307+00:00
+15150634,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-24T15:04:27.070103+00:00
+15167812,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:43.356011+00:00
+15168112,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:20.856355+00:00
+15182282,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:35.073440+00:00
+15204620,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:33.480933+00:00
+15207063,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:41.938433+00:00
+15208080,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:45.238701+00:00
+15225478,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:32.324513+00:00
+15227200,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T15:04:10.006597+00:00
+15231803,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:03.559587+00:00
+15233058,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:13.588316+00:00
+15233480,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:12.468913+00:00
+15235314,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:09.429739+00:00
+15236842,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:17.425078+00:00
+15237861,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:04.520938+00:00
+15239629,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:27.318422+00:00
+15240358,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:02.539398+00:00
+15248455,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:08.157356+00:00
+15252977,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:44.933315+00:00
+15263701,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:29.629620+00:00
+15265818,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-24T15:03:47.675262+00:00
+15265882,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:35.529672+00:00
+15289092,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:43.647081+00:00
+15290823,deepseek__chat-temp07,"[""delay""]",procedural,low,2026-04-24T15:03:51.620153+00:00
+15316128,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:42.728879+00:00
+15316363,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:03:47.430839+00:00
+15329840,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:52.122072+00:00
+15336655,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:57.993970+00:00
+15374687,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:33.820622+00:00
+15374731,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:37.158464+00:00
+15378744,deepseek__chat-temp07,"[""unethical_collections""]",procedural,medium,2026-04-24T15:03:51.337875+00:00
+15400013,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:47.678536+00:00
+15435102,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,high,2026-04-24T15:04:08.983487+00:00
+15442250,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:03:42.427174+00:00
+15447856,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:22.327266+00:00
+15452389,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:27.531411+00:00
+15463386,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:24.455562+00:00
+15479980,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""none_other""]",interactional,high,2026-04-24T15:04:02.626633+00:00
+15492875,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:25.958160+00:00
+15498890,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:48.928342+00:00
+15500894,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:50.176271+00:00
+15502763,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:56.765835+00:00
+15504579,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:59.973424+00:00
+15527598,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:29.429564+00:00
+15529230,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:48.493682+00:00
+15531207,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:39.575055+00:00
+15532249,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:57.448258+00:00
+15535529,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:55.386974+00:00
+15546657,deepseek__chat-temp07,"[""none_other""]",distributive,high,2026-04-24T15:04:05.345553+00:00
+15556783,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:14.303065+00:00
+15573015,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:26.734666+00:00
+15593304,deepseek__chat-temp07,"[""unethical_collections""]",procedural,high,2026-04-24T15:04:28.813881+00:00
+15594332,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:03:48.523814+00:00
+15608317,deepseek__chat-temp07,"[""excessive_charge""]",procedural,high,2026-04-24T15:03:53.794801+00:00
+15608706,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",distributive,high,2026-04-24T15:03:46.138756+00:00
+15623138,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:31.089778+00:00
+15629621,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T15:04:00.107612+00:00
+15630816,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:52.389418+00:00
+15634597,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:43.882120+00:00
+15637148,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:43.018654+00:00
+15639871,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:03:52.753670+00:00
+15648424,deepseek__chat-temp07,"[""unethical_collections"", ""none_other""]",procedural,high,2026-04-24T15:04:32.429180+00:00
+15651907,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:27.782573+00:00
+15670607,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:42.795478+00:00
+15674081,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:46.626105+00:00
+15681533,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:49.521781+00:00
+15686608,deepseek__chat-temp07,"[""none_other""]",distributive,high,2026-04-24T15:03:51.458995+00:00
+15691171,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:24.969792+00:00
+15695918,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:52.283100+00:00
+15696452,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:33.703274+00:00
+15702140,deepseek__chat-temp07,"[""unethical_collections""]",interactional,medium,2026-04-24T15:04:32.343458+00:00
+15724869,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:26.217368+00:00
+15724962,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:17.276256+00:00
+15752922,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:10.062870+00:00
+15773819,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:23.120543+00:00
+15795048,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:33.814020+00:00
+15800751,deepseek__chat-temp07,"[""delay"", ""excessive_charge"", ""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:03:51.219168+00:00
+15804293,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",interactional,medium,2026-04-24T15:04:38.303976+00:00
+15809090,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:10.744982+00:00
+15822889,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""none_other""]",distributive,medium,2026-04-24T15:03:48.191988+00:00
+15841127,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",interactional,high,2026-04-24T15:04:00.776541+00:00
+15841439,deepseek__chat-temp07,"[""delay"", ""unethical_collections"", ""none_other""]",procedural,high,2026-04-24T15:03:49.020051+00:00
+15843624,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:16.199189+00:00
+15850126,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:17.595212+00:00
+15854362,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:41.155837+00:00
+15872903,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:14.757033+00:00
+15884004,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:32.290182+00:00
+15887773,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:32.373072+00:00
+15890941,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:07.712101+00:00
+15893192,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:08.447507+00:00
+15894264,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:22.669596+00:00
+15918615,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:43.826769+00:00
+15944154,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:46.097481+00:00
+15983307,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:54.006926+00:00
+15989219,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:49.078365+00:00
+15989936,deepseek__chat-temp07,"[""delay"", ""unethical_collections"", ""none_other""]",procedural,high,2026-04-24T15:03:59.458908+00:00
+15996333,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:12.088354+00:00
+16005953,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:11.783862+00:00
+16034608,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:03:43.652907+00:00
+16054935,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:16.279837+00:00
+16057167,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:19.129874+00:00
+16061476,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:31.862157+00:00
+16071377,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:08.845273+00:00
+16072178,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:18.744603+00:00
+16082875,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:27.891416+00:00
+16096914,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:24.182352+00:00
+16100380,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,high,2026-04-24T15:04:31.615277+00:00
+16105710,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:16.677238+00:00
+16107495,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:36.433143+00:00
+16119831,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:28.572170+00:00
+16129232,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:41.672185+00:00
+16131767,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:20.003776+00:00
+16135438,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:34.333291+00:00
+16139547,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:42.298432+00:00
+16140871,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",distributive,high,2026-04-24T15:04:31.197046+00:00
+16143488,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:39.575728+00:00
+16147650,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:25.560985+00:00
+16161275,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:03:56.820026+00:00
+16170258,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",interactional,high,2026-04-24T15:04:36.772422+00:00
+16176426,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:03:45.047312+00:00
+16177893,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:26.115339+00:00
+16204820,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,high,2026-04-24T15:03:51.342725+00:00
+16216566,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:26.347218+00:00
+16236574,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:08.283960+00:00
+16238696,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:46.661923+00:00
+16254199,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:18.827821+00:00
+16266659,deepseek__chat-temp07,"[""unaware_of_charge""]",interactional,high,2026-04-24T15:03:51.743940+00:00
+16267932,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:04.336270+00:00
+16279861,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:19.656863+00:00
+16290584,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:03:59.286144+00:00
+16293862,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:41.990331+00:00
+16294953,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:38.785553+00:00
+16302684,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:27.532906+00:00
+16306669,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:33.680406+00:00
+16309227,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:52.911008+00:00
+16331093,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",interactional,medium,2026-04-24T15:03:54.483216+00:00
+16346270,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:28.730639+00:00
+16349897,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:17.029152+00:00
+16351040,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:19.655788+00:00
+16385775,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""none_other""]",distributive,high,2026-04-24T15:04:09.698921+00:00
+16392462,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:38.729967+00:00
+16393683,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:40.801388+00:00
+16420530,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:39.837285+00:00
+16421092,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:03:50.048772+00:00
+16426331,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:04.293797+00:00
+16464371,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:34.486902+00:00
+16510388,deepseek__chat-temp07,"[""excessive_charge""]",procedural,high,2026-04-24T15:04:21.502756+00:00
+16564466,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:21.390813+00:00
+16565350,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:03:47.885302+00:00
+16586237,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",interactional,medium,2026-04-24T15:04:12.596167+00:00
+16593914,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:16.286251+00:00
+16624993,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:33.830597+00:00
+16631613,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:17.172695+00:00
+16643807,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:44.857025+00:00
+16665822,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:43.352956+00:00
+16703355,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:03.401663+00:00
+16706230,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:18.170639+00:00
+16710406,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-24T15:04:33.397945+00:00
+16715628,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",interactional,high,2026-04-24T15:03:54.034650+00:00
+16715951,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:12.210184+00:00
+16717684,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:02.014971+00:00
+16720024,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:36.755047+00:00
+16727253,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:58.831428+00:00
+16733981,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:02.463594+00:00
+16738033,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,low,2026-04-24T15:03:48.722634+00:00
+16754593,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:12.928424+00:00
+16756604,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:30.778163+00:00
+16761956,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:38.713002+00:00
+16768086,deepseek__chat-temp07,"[""none_other""]",interactional,medium,2026-04-24T15:04:09.685959+00:00
+16768433,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:37.241931+00:00
+16794462,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:18.093095+00:00
+16800435,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:33.118868+00:00
+16805910,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",distributive,high,2026-04-24T15:04:33.333984+00:00
+16812819,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:42.681004+00:00
+16813691,deepseek__chat-temp07,"[""none_other""]",distributive,high,2026-04-24T15:04:20.244708+00:00
+16839503,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:50.092504+00:00
+16840236,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:25.772357+00:00
+16842973,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:25.766527+00:00
+16843120,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:15.066061+00:00
+16845464,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:31.309448+00:00
+16863588,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:03.788675+00:00
+16871058,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:00.134546+00:00
+16872480,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:12.312451+00:00
+16890639,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:29.984504+00:00
+16891898,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:39.930831+00:00
+16894068,deepseek__chat-temp07,"[""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:45.470296+00:00
+16924304,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:42.462124+00:00
+16932903,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:15.463502+00:00
+16937297,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:19.657427+00:00
+16950623,deepseek__chat-temp07,"[""delay""]",interactional,medium,2026-04-24T15:04:10.797382+00:00
+16959030,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:20.705716+00:00
+16973199,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:35.410368+00:00
+16974791,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:46.355612+00:00
+16989402,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:07.069159+00:00
+16992400,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:03:50.837569+00:00
+16995879,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:55.010805+00:00
+17007403,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:09.502268+00:00
+17008533,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:19.849174+00:00
+17029550,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:44.785916+00:00
+17037975,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:05.167564+00:00
+17039590,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:20.442353+00:00
+17041202,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:00.128445+00:00
+17067490,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:03:58.349096+00:00
+17068205,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:31.267333+00:00
+17080530,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:43.638942+00:00
+17081973,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:07.595571+00:00
+17082725,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:00.354241+00:00
+17083708,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:43.141504+00:00
+17083842,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:15.776539+00:00
+17095868,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:47.267312+00:00
+17106228,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:04:31.831485+00:00
+17110998,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:13.001978+00:00
+17113795,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:34.868650+00:00
+17121250,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:19.917694+00:00
+17122374,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:03:57.828465+00:00
+17127705,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:03.574227+00:00
+17142175,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,low,2026-04-24T15:04:15.060946+00:00
+17154509,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:06.233534+00:00
+17156432,deepseek__chat-temp07,"[""delay""]",interactional,medium,2026-04-24T15:04:31.191223+00:00
+17163716,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:27.532396+00:00
+17172564,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:26.135240+00:00
+17186513,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:36.158433+00:00
+17202509,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:13.675405+00:00
+17214209,deepseek__chat-temp07,"[""excessive_charge""]",procedural,high,2026-04-24T15:04:19.655263+00:00
+17216945,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T15:03:43.572225+00:00
+17219980,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:14.190863+00:00
+17220908,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:57.155243+00:00
+17223413,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:24.686091+00:00
+17230853,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:11.417442+00:00
+17254219,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:03:52.655286+00:00
+17256629,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:43.436077+00:00
+17258506,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:03:47.506639+00:00
+17260689,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:42.356816+00:00
+17262423,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T15:04:44.299311+00:00
+17283561,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:57.950757+00:00
+17284715,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:10.832567+00:00
+17301295,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:03:43.744803+00:00
+17303351,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:43.981596+00:00
+17328416,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:22.694015+00:00
+17328499,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:45.064276+00:00
+17328703,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:07.071178+00:00
+17329962,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:38.525841+00:00
+17334561,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:04.638554+00:00
+17353078,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:00.608410+00:00
+17353738,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:08.002788+00:00
+17358434,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:55.350952+00:00
+17360538,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:16.013140+00:00
+17360629,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:40.774788+00:00
+17364271,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:08.353811+00:00
+17369756,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:39.584403+00:00
+17387675,deepseek__chat-temp07,"[""excessive_charge""]",procedural,medium,2026-04-24T15:04:10.902627+00:00
+17401735,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:03.983473+00:00
+17429150,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:21.227826+00:00
+17454458,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:38.064802+00:00
+17467230,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:38.832248+00:00
+17525515,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,low,2026-04-24T15:04:21.607528+00:00
+17536089,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:22.565991+00:00
+17536155,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:16.343075+00:00
+17600342,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:48.617435+00:00
+17619605,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:23.323627+00:00
+17753390,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:14.581345+00:00
+17754909,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:17.128376+00:00
+17757666,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:43.567317+00:00
+17759911,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:56.341158+00:00
+17761019,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:11.066423+00:00
+17762329,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:56.388178+00:00
+17762908,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:03:47.144688+00:00
+17828838,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:45.043394+00:00
+17829996,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:31.200513+00:00
+17831398,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:25.036612+00:00
+17836278,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",interactional,medium,2026-04-24T15:04:09.529907+00:00
+17847682,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:03:46.098108+00:00
+17848373,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:13.494950+00:00
+17866623,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:42.505790+00:00
+17869325,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:28.174889+00:00
+17870141,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",distributive,high,2026-04-24T15:04:18.612329+00:00
+17871416,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:17.028915+00:00
+17874509,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:04.975116+00:00
+17875350,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:20.359874+00:00
+17877394,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:36.432282+00:00
+17877895,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:12.429775+00:00
+17879305,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:10.542252+00:00
+17887209,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:07.102459+00:00
+17887985,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-24T15:04:41.317297+00:00
+17895629,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:31.209236+00:00
+17901041,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:11.833763+00:00
+17901186,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:22.674450+00:00
+17901792,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:02.352928+00:00
+17905549,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:06.022274+00:00
+17916163,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:36.954695+00:00
+17925796,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:45.984655+00:00
+17933102,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:30.980078+00:00
+17936966,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:01.527072+00:00
+17937456,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:25.202248+00:00
+17952468,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:03.401169+00:00
+17995077,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:30.211999+00:00
+17996359,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:43.984292+00:00
+17998325,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:54.023895+00:00
+18010041,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",interactional,high,2026-04-24T15:04:33.814639+00:00
+18030230,deepseek__chat-temp07,"[""delay"", ""none_other""]",interactional,medium,2026-04-24T15:04:23.855354+00:00
+18031673,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:38.624490+00:00
+18037295,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:11.952256+00:00
+18041402,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:38.929169+00:00
+18045356,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",distributive,high,2026-04-24T15:03:56.608990+00:00
+18048041,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:01.304721+00:00
+18049586,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:08.196291+00:00
+18060314,deepseek__chat-temp07,"[""delay""]",interactional,medium,2026-04-24T15:04:21.944245+00:00
+18060539,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:04.704699+00:00
+18065299,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:37.250332+00:00
+18080785,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:06.706713+00:00
+18109805,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:54.096100+00:00
+18112213,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:56.182243+00:00
+18114692,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:21.232897+00:00
+18116002,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:02.143629+00:00
+18123284,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:03:59.492134+00:00
+18125543,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:32.095613+00:00
+18139163,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:32.017481+00:00
+18146393,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,high,2026-04-24T15:04:10.939810+00:00
+18147247,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:07.064875+00:00
+18149733,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:54.723277+00:00
+18158054,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:58.810544+00:00
+18161403,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:49.522491+00:00
+18164411,deepseek__chat-temp07,"[""excessive_charge""]",distributive,high,2026-04-24T15:04:07.071427+00:00
+18239063,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",interactional,low,2026-04-24T15:04:13.366221+00:00
+18246074,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:57.681714+00:00
+18281826,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,medium,2026-04-24T15:03:44.832587+00:00
+18296655,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:24.896857+00:00
+18316270,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:13.216031+00:00
+18320629,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:53.226264+00:00
+18321421,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:01.623543+00:00
+18335888,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:17.405884+00:00
+18341312,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:53.602001+00:00
+18342994,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:40.830256+00:00
+18343958,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",interactional,medium,2026-04-24T15:04:16.866799+00:00
+18345803,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:26.185546+00:00
+18345817,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:14.601847+00:00
+18346989,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:05.557444+00:00
+18348508,deepseek__chat-temp07,"[""excessive_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:02.878266+00:00
+18375053,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:18.655499+00:00
+18380187,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:02.526853+00:00
+18380323,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:03:55.222682+00:00
+18384440,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:43.288331+00:00
+18392828,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:06.388641+00:00
+18395356,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:56.584979+00:00
+18395452,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:26.824753+00:00
+18397355,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:29.617780+00:00
+18408264,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:10.800147+00:00
+18415454,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:47.338450+00:00
+18419839,deepseek__chat-temp07,"[""unaware_of_charge"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:40.261554+00:00
+18420076,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",distributive,medium,2026-04-24T15:03:50.640746+00:00
+18447577,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:01.189126+00:00
+18490890,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:17.844299+00:00
+18546369,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:18.343113+00:00
+18562624,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:55.077026+00:00
+18573513,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:30.218305+00:00
+18574596,deepseek__chat-temp07,"[""delay""]",procedural,low,2026-04-24T15:04:28.439862+00:00
+18575033,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:03:51.341883+00:00
+18576875,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:36.093344+00:00
+18581315,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:03:47.697306+00:00
+18583445,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:46.359318+00:00
+18584681,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:38.838204+00:00
+18600023,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:15.309828+00:00
+18607954,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:00.528146+00:00
+18615947,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:23.107664+00:00
+18619479,deepseek__chat-temp07,"[""unaware_of_charge""]",interactional,medium,2026-04-24T15:04:30.483178+00:00
+18636028,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:43.249517+00:00
+18638176,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:46.260477+00:00
+18640097,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,low,2026-04-24T15:04:22.649269+00:00
+18650429,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:34.200435+00:00
+18667481,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:04:37.712505+00:00
+18669656,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:03:53.442795+00:00
+18670332,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:59.355846+00:00
+18678803,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:30.239458+00:00
+18681790,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T15:03:48.729627+00:00
+18684062,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:40.123783+00:00
+18688615,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:14.555482+00:00
+18691235,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:48.503236+00:00
+18706327,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:50.160258+00:00
+18716565,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:04:38.012299+00:00
+18719678,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:00.641169+00:00
+18726971,deepseek__chat-temp07,"[""unethical_collections"", ""delay""]",interactional,medium,2026-04-24T15:04:16.099026+00:00
+18727780,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:03:45.980413+00:00
+18745295,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:03:50.294754+00:00
+18788350,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:47.142718+00:00
+18815638,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:51.601391+00:00
+18824792,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:29.839012+00:00
+18830813,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",distributive,high,2026-04-24T15:03:53.958709+00:00
+18836040,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:23.035317+00:00
+18852297,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:03:52.672717+00:00
+18855535,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:43.433458+00:00
+18858276,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:43.998816+00:00
+18867421,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:01.909031+00:00
+18868692,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:20.762767+00:00
+18870820,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:04:10.749090+00:00
+18871431,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:33.652869+00:00
+18883237,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:39.052288+00:00
+18889200,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:53.114704+00:00
+18891739,deepseek__chat-temp07,"[""unethical_collections"", ""delay""]",interactional,high,2026-04-24T15:04:13.365284+00:00
+18901284,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:42.590684+00:00
+18906446,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:23.874157+00:00
+18906856,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:03:55.955974+00:00
+18915312,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:39.948082+00:00
+18922682,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:20.234144+00:00
+18927321,deepseek__chat-temp07,"[""delay""]",interactional,medium,2026-04-24T15:04:25.016309+00:00
+18943183,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:55.537476+00:00
+18957594,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:23.582315+00:00
+18965280,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T15:04:12.146276+00:00
+18967000,deepseek__chat-temp07,"[""none_other""]",procedural,high,2026-04-24T15:04:21.939234+00:00
+18967512,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:07.066463+00:00
+18972124,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:44.858781+00:00
+18994078,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""excessive_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:40.149581+00:00
+18996236,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:03:50.695097+00:00
+18999087,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:42.429181+00:00
+19009790,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:10.337684+00:00
+19010790,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T15:03:43.865118+00:00
+19023099,deepseek__chat-temp07,"[""none_other""]",interactional,low,2026-04-24T15:04:40.770521+00:00
+19026891,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:03:45.054183+00:00
+19034889,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:56.648491+00:00
+19036670,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:03:50.165024+00:00
+19037631,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:21.223912+00:00
+19040693,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:03:48.357930+00:00
+19090286,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,medium,2026-04-24T15:03:42.444266+00:00
+19107799,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:21.000871+00:00
+19112824,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:28.259003+00:00
+19118557,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:03.252347+00:00
+19119681,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:17.212895+00:00
+19119695,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:03.719670+00:00
+19202742,deepseek__chat-temp07,"[""delay""]",distributive,medium,2026-04-24T15:04:28.721306+00:00
+19211484,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:21.952363+00:00
+19214944,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:41.769563+00:00
+19222741,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:19.656311+00:00
+19223224,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:23.699608+00:00
+19223636,deepseek__chat-temp07,"[""excessive_charge""]",distributive,medium,2026-04-24T15:04:03.400690+00:00
+19244260,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",distributive,medium,2026-04-24T15:04:35.082859+00:00
+19267468,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:18.275451+00:00
+19343407,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:04:44.450904+00:00
+19353079,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:10.101517+00:00
+19361764,deepseek__chat-temp07,"[""excessive_charge""]",procedural,high,2026-04-24T15:04:04.647863+00:00
+19385990,deepseek__chat-temp07,"[""excessive_charge"", ""delay""]",interactional,high,2026-04-24T15:04:26.624633+00:00
+19386539,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:27.803283+00:00
+19419322,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:56.591233+00:00
+19419544,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:23.669205+00:00
+19447160,deepseek__chat-temp07,"[""unaware_of_charge""]",distributive,low,2026-04-24T15:04:38.348909+00:00
+19449595,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:40.722150+00:00
+19453357,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",interactional,medium,2026-04-24T15:03:54.721052+00:00
+19509772,deepseek__chat-temp07,"[""excessive_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:23.413116+00:00
+19514895,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,high,2026-04-24T15:04:23.847401+00:00
+19515821,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:10.568310+00:00
+19524810,deepseek__chat-temp07,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T15:04:40.659358+00:00
+19531901,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:59.728275+00:00
+19576728,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T15:03:59.356759+00:00
+19583190,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T15:03:44.220918+00:00
+19622660,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:18.502084+00:00
+19629301,deepseek__chat-temp07,"[""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T15:03:43.826013+00:00
+19658401,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:23.492817+00:00
+19658517,deepseek__chat-temp07,"[""excessive_charge"", ""delay"", ""none_other""]",distributive,high,2026-04-24T15:04:13.423962+00:00
+19662521,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:17.338785+00:00
+19669802,deepseek__chat-temp07,"[""none_other""]",distributive,medium,2026-04-24T15:04:03.511912+00:00
+19671825,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:19.693780+00:00
+19681266,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:03.555061+00:00
+19685434,deepseek__chat-temp07,"[""unethical_collections"", ""delay""]",interactional,high,2026-04-24T15:04:31.225828+00:00
+19785208,deepseek__chat-temp07,"[""delay"", ""none_other""]",interactional,high,2026-04-24T15:04:27.127861+00:00
+19786881,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:04.980312+00:00
+19883325,deepseek__chat-temp07,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:32.472667+00:00
+19971371,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",procedural,medium,2026-04-24T15:04:01.905793+00:00
+19985735,deepseek__chat-temp07,"[""unaware_of_charge"", ""excessive_charge""]",interactional,medium,2026-04-24T15:04:05.847421+00:00
+20010699,deepseek__chat-temp07,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T15:04:14.574127+00:00
+20019845,deepseek__chat-temp07,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T15:04:00.776033+00:00
+20044160,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:03:52.056880+00:00
+20098605,deepseek__chat-temp07,"[""delay""]",procedural,medium,2026-04-24T15:04:09.226232+00:00
+20111446,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:02.890674+00:00
+20130708,deepseek__chat-temp07,"[""none_other""]",procedural,medium,2026-04-24T15:04:22.326905+00:00
+20144174,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T15:04:43.446614+00:00
+20179369,deepseek__chat-temp07,"[""unaware_of_charge""]",procedural,medium,2026-04-24T15:04:35.041299+00:00
+20236041,deepseek__chat-temp07,"[""none_other""]",procedural,low,2026-04-24T15:03:59.997910+00:00
+20278285,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T15:04:27.188123+00:00
+20301694,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:03:44.849957+00:00
+20344686,deepseek__chat-temp07,"[""unaware_of_charge"", ""none_other""]",procedural,medium,2026-04-24T15:04:21.226353+00:00
+20489775,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:01.162946+00:00
+20501688,deepseek__chat-temp07,"[""delay""]",procedural,high,2026-04-24T15:04:11.543613+00:00
+20567181,deepseek__chat-temp07,"[""unaware_of_charge""]",interactional,high,2026-04-24T15:03:59.014561+00:00
+20606775,deepseek__chat-temp07,"[""delay"", ""none_other""]",procedural,high,2026-04-24T15:04:08.237120+00:00
+20763158,deepseek__chat-temp07,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T15:04:20.176807+00:00

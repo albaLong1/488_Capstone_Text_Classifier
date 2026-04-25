@@ -1,0 +1,3 @@
+2026-04-25T19:41:09.860071+00:00	12938469	ValueError: unfairness_type must be a non-empty array, got None
+2026-04-25T20:09:55.482475+00:00	18161403	APIConnectionError: Connection error.
+2026-04-25T20:10:10.491676+00:00	11450037	APIConnectionError: Connection error.
