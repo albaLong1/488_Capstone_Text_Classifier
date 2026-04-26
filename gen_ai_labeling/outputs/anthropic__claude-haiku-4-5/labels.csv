@@ -1,30 +1,30 @@
 complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
-11333660,anthropic__claude-haiku-4-5,,,,2026-04-24T07:44:31.358683+00:00
+11333660,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:24:44.681787+00:00
 11343508,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:39:26.220717+00:00
 11349436,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-24T16:35:59.870019+00:00
 11352476,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T18:27:04.409405+00:00
 11352902,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T05:22:17.823177+00:00
 11352953,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T08:17:43.089009+00:00
-11384698,anthropic__claude-haiku-4-5,,,,2026-04-24T08:17:42.092621+00:00
+11384698,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:10:20.125398+00:00
 11385028,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T03:59:06.932497+00:00
 11386695,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T04:00:06.752250+00:00
 11389746,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T17:19:25.624597+00:00
 11389752,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T08:52:35.384584+00:00
-11389795,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:15.346555+00:00
+11389795,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:12:50.663685+00:00
 11391542,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T18:12:46.604684+00:00
 11401223,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T03:50:42.634053+00:00
-11401851,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:51.039772+00:00
+11401851,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T22:42:49.625147+00:00
 11410111,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:35:13.202974+00:00
 11411165,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",interactional,high,2026-04-24T03:57:54.794524+00:00
-11414280,anthropic__claude-haiku-4-5,,,,2026-04-24T03:56:43.044249+00:00
+11414280,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-25T23:10:04.502449+00:00
 11428232,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T03:52:17.579451+00:00
-11428519,anthropic__claude-haiku-4-5,,,,2026-04-24T08:51:46.640884+00:00
+11428519,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:51:49.718301+00:00
 11433091,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T05:22:17.984054+00:00
-11437903,anthropic__claude-haiku-4-5,,,,2026-04-24T09:31:33.820679+00:00
+11437903,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:57:10.614357+00:00
 11442840,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T18:14:16.231901+00:00
 11450037,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:38:11.143590+00:00
 11452854,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T08:51:58.447971+00:00
-11455052,anthropic__claude-haiku-4-5,,,,2026-04-24T05:04:37.166149+00:00
+11455052,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:55:24.442324+00:00
 11455678,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T07:12:23.839806+00:00
 11465631,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:38:29.916297+00:00
 11466371,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T03:55:18.632212+00:00
@@ -40,32 +40,32 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 11551907,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:50:42.446294+00:00
 11575022,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T17:13:22.654351+00:00
 11593109,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,medium,2026-04-24T16:43:59.807662+00:00
-11596070,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:42.612248+00:00
+11596070,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:50:49.987037+00:00
 11601734,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T16:44:45.096996+00:00
 11634807,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T05:05:01.229625+00:00
 11638311,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",interactional,medium,2026-04-24T17:52:17.136635+00:00
 11651442,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:36:44.821297+00:00
-11653905,anthropic__claude-haiku-4-5,,,,2026-04-24T03:55:42.343568+00:00
+11653905,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-26T00:52:30.744385+00:00
 11682130,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T17:17:07.669469+00:00
 11685621,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-24T03:58:30.889481+00:00
 11691460,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T06:05:03.808481+00:00
 11706286,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:21:03.144817+00:00
 11707658,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:13:31.410915+00:00
 11716590,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T06:39:57.716309+00:00
-11718118,anthropic__claude-haiku-4-5,,,,2026-04-24T04:19:51.128869+00:00
+11718118,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:53:04.663822+00:00
 11720286,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T16:56:15.742115+00:00
 11720589,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T17:52:31.932839+00:00
-11727292,anthropic__claude-haiku-4-5,,,,2026-04-24T08:52:47.465241+00:00
+11727292,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:22:32.400222+00:00
 11731528,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-24T04:18:39.663558+00:00
 11742198,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T18:28:59.455739+00:00
-11742235,anthropic__claude-haiku-4-5,,,,2026-04-24T05:47:22.022902+00:00
+11742235,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:53:15.614464+00:00
 11767791,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T18:15:01.723125+00:00
 11774684,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-25T21:40:26.180313+00:00
 11791676,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:52:51.680375+00:00
 11796802,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T18:05:16.410643+00:00
 11802320,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-24T17:14:37.627098+00:00
 11809341,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T16:34:29.860093+00:00
-11822134,anthropic__claude-haiku-4-5,,,,2026-04-24T06:05:39.452784+00:00
+11822134,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:50:19.789662+00:00
 11823240,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T08:52:57.999463+00:00
 11824367,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T09:34:58.183919+00:00
 11826614,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T21:27:37.649029+00:00
@@ -75,34 +75,34 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 11868297,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:11:22.678972+00:00
 11869185,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T09:33:46.058419+00:00
 11870784,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T05:22:42.292501+00:00
-11871327,anthropic__claude-haiku-4-5,,,,2026-04-24T07:28:47.262919+00:00
+11871327,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T01:15:10.987433+00:00
 11874614,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T03:55:30.651202+00:00
 11889682,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T06:05:52.128770+00:00
 11893799,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:14:37.467387+00:00
-11911670,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:10.470290+00:00
+11911670,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:25:44.398489+00:00
 11913076,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:44:26.281477+00:00
 11914519,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:33:52.639944+00:00
 11916711,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:55:54.899217+00:00
-11924703,anthropic__claude-haiku-4-5,,,,2026-04-24T03:56:06.142549+00:00
+11924703,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:41:10.717385+00:00
 11930190,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T03:52:30.751920+00:00
 11931735,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T18:08:16.471591+00:00
 11941304,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:45:44.869925+00:00
 11944490,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T06:39:45.706047+00:00
 11951733,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T09:35:34.210964+00:00
 11964312,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T16:57:30.135456+00:00
-11966657,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:18.102420+00:00
+11966657,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-26T00:11:43.697196+00:00
 11972763,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T09:09:30.952590+00:00
-11976040,anthropic__claude-haiku-4-5,,,,2026-04-24T09:52:16.677436+00:00
-11976464,anthropic__claude-haiku-4-5,,,,2026-04-24T03:56:07.287589+00:00
+11976040,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:00:50.872369+00:00
+11976464,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-26T00:55:28.392339+00:00
 11981359,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:14:52.905782+00:00
 11994823,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T18:11:16.344426+00:00
-12000232,anthropic__claude-haiku-4-5,,,,2026-04-24T04:22:50.991406+00:00
-12003464,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:28.225101+00:00
+12000232,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-25T23:06:40.986638+00:00
+12003464,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:19:17.746969+00:00
 12013129,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:18:03.196932+00:00
 12017829,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:10:37.719860+00:00
-12019568,anthropic__claude-haiku-4-5,,,,2026-04-24T08:51:58.270046+00:00
-12019692,anthropic__claude-haiku-4-5,,,,2026-04-24T09:53:03.582146+00:00
-12021298,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:50.904701+00:00
+12019568,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-26T00:00:01.928718+00:00
+12019692,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-25T22:47:05.019515+00:00
+12021298,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:48:34.617963+00:00
 12022499,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T09:31:10.354525+00:00
 12023953,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-24T16:39:14.870464+00:00
 12028578,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-25T21:23:22.564672+00:00
@@ -112,17 +112,17 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 12059449,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:04:22.425544+00:00
 12071097,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T21:20:52.509745+00:00
 12090909,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T03:58:18.586134+00:00
-12100609,anthropic__claude-haiku-4-5,,,,2026-04-24T04:25:14.492460+00:00
+12100609,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:50:33.570544+00:00
 12102243,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T05:05:13.127807+00:00
-12103287,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:22.700040+00:00
+12103287,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-25T23:42:51.306434+00:00
 12107841,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-24T04:24:51.538803+00:00
 12119764,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:29:07.408104+00:00
 12126609,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,medium,2026-04-24T17:06:52.847930+00:00
 12126622,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:51:45.238946+00:00
 12131233,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:44:41.011793+00:00
 12135137,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T17:15:23.010438+00:00
-12138007,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:34.126074+00:00
-12138388,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:07.403412+00:00
+12138007,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:13:28.457299+00:00
+12138388,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-26T00:44:59.870979+00:00
 12139767,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:15:22.501470+00:00
 12147768,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T06:39:23.190813+00:00
 12151870,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T06:39:22.494515+00:00
@@ -131,29 +131,29 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 12183287,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T18:13:01.371970+00:00
 12193044,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T09:30:58.157125+00:00
 12220824,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:52:15.120703+00:00
-12222853,anthropic__claude-haiku-4-5,,,,2026-04-24T04:17:51.311620+00:00
+12222853,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T00:13:43.814860+00:00
 12243071,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T16:51:14.989352+00:00
 12245465,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T04:07:29.200186+00:00
-12265086,anthropic__claude-haiku-4-5,,,,2026-04-24T04:51:21.955310+00:00
+12265086,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T22:44:06.432101+00:00
 12270204,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-24T03:59:30.976052+00:00
 12277172,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:18:38.275231+00:00
 12297398,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:41:26.126117+00:00
 12314619,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T06:39:21.343737+00:00
 12314688,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T19:49:18.593067+00:00
-12323815,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:55.066169+00:00
+12323815,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:02:43.260137+00:00
 12323970,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:12:52.445801+00:00
-12329307,anthropic__claude-haiku-4-5,,,,2026-04-24T04:35:13.439613+00:00
-12332364,anthropic__claude-haiku-4-5,,,,2026-04-24T06:07:04.099242+00:00
+12329307,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:44:01.579673+00:00
+12332364,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:28:10.116242+00:00
 12341377,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T16:37:30.045156+00:00
 12349846,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T16:35:16.642083+00:00
 12349984,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-25T21:42:10.890126+00:00
-12350348,anthropic__claude-haiku-4-5,,,,2026-04-24T04:19:03.593513+00:00
+12350348,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:46:19.772003+00:00
 12365397,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T16:40:44.982574+00:00
-12366382,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:30.784375+00:00
-12367375,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:06.841469+00:00
+12366382,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:43:49.511594+00:00
+12367375,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-26T01:01:39.822227+00:00
 12368440,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T05:05:59.553731+00:00
 12384425,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:17:22.421466+00:00
-12402909,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:43.016612+00:00
+12402909,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T23:43:35.899487+00:00
 12408616,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T19:06:50.401608+00:00
 12409264,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-24T04:27:39.003619+00:00
 12411531,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T20:08:38.683483+00:00
@@ -164,31 +164,31 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 12451128,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:34:52.455072+00:00
 12454425,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T16:42:00.241172+00:00
 12456486,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T16:36:29.971703+00:00
-12463292,anthropic__claude-haiku-4-5,,,,2026-04-24T03:57:06.098369+00:00
+12463292,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-26T00:14:29.056783+00:00
 12486843,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:21:39.319071+00:00
 12497140,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T04:19:27.700145+00:00
-12499018,anthropic__claude-haiku-4-5,,,,2026-04-24T04:20:03.304326+00:00
-12501015,anthropic__claude-haiku-4-5,,,,2026-04-24T04:25:27.201565+00:00
-12501071,anthropic__claude-haiku-4-5,,,,2026-04-24T08:01:20.106158+00:00
+12499018,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:02:28.206954+00:00
+12501015,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:25:29.447005+00:00
+12501071,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-26T01:27:39.994001+00:00
 12502572,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T09:34:34.593558+00:00
 12503272,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:10:52.755329+00:00
 12507673,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T21:28:22.498195+00:00
-12508961,anthropic__claude-haiku-4-5,,,,2026-04-24T09:09:30.411104+00:00
-12535022,anthropic__claude-haiku-4-5,,,,2026-04-24T05:29:36.889460+00:00
+12508961,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:38:06.608309+00:00
+12535022,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:04:11.277064+00:00
 12537166,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T16:43:00.038313+00:00
 12554943,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T21:32:22.422472+00:00
-12559400,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:50.841240+00:00
-12569382,anthropic__claude-haiku-4-5,,,,2026-04-24T05:04:37.881839+00:00
+12559400,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:33:11.870991+00:00
+12569382,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",distributive,high,2026-04-26T00:49:11.078449+00:00
 12584925,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T18:13:46.810891+00:00
-12623596,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:02.720969+00:00
+12623596,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-26T00:11:58.692682+00:00
 12624818,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:29:37.422441+00:00
-12651990,anthropic__claude-haiku-4-5,,,,2026-04-24T05:48:07.056411+00:00
-12654170,anthropic__claude-haiku-4-5,,,,2026-04-24T05:05:00.723060+00:00
-12654706,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:30.707836+00:00
+12651990,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-26T01:29:52.913675+00:00
+12654170,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:52:34.499680+00:00
+12654706,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-25T23:43:21.285086+00:00
 12658362,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T16:52:01.950327+00:00
-12658774,anthropic__claude-haiku-4-5,,,,2026-04-24T03:57:54.638889+00:00
+12658774,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-25T23:19:33.094250+00:00
 12659590,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T18:05:31.167268+00:00
-12670079,anthropic__claude-haiku-4-5,,,,2026-04-24T09:31:33.788146+00:00
+12670079,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:29:40.047364+00:00
 12684462,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T20:09:08.602181+00:00
 12688053,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T17:16:52.893494+00:00
 12689414,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:33:15.311617+00:00
@@ -196,90 +196,90 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 12722351,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T21:42:41.067243+00:00
 12730057,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",interactional,high,2026-04-24T18:34:40.087552+00:00
 12750249,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:32:37.625603+00:00
-12765836,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:42.842623+00:00
-12768623,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:42.584053+00:00
-12772643,anthropic__claude-haiku-4-5,,,,2026-04-24T06:39:26.078328+00:00
+12765836,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:23:22.042551+00:00
+12768623,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:21:26.608875+00:00
+12772643,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-25T22:54:12.157088+00:00
 12773820,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T19:08:40.243770+00:00
 12785127,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T04:23:51.768754+00:00
 12801199,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:39:56.220590+00:00
 12809459,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:33:44.989595+00:00
 12813605,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:25:52.580315+00:00
-12820055,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:31.069004+00:00
+12820055,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:05:59.908477+00:00
 12826333,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T19:15:09.671562+00:00
 12831361,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T16:56:29.808766+00:00
-12832561,anthropic__claude-haiku-4-5,,,,2026-04-24T08:51:57.913876+00:00
+12832561,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:26:14.605649+00:00
 12843055,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T09:31:58.371319+00:00
 12852228,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-24T08:18:18.838214+00:00
 12852514,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T18:12:32.182314+00:00
 12855049,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T21:45:56.179729+00:00
 12856474,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-24T08:51:46.432627+00:00
 12857585,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-25T21:22:52.721900+00:00
-12861607,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:31.258777+00:00
+12861607,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections"", ""delay""]",procedural,high,2026-04-26T00:01:20.946329+00:00
 12867821,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:34:46.674574+00:00
 12882439,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T04:22:15.013937+00:00
 12883263,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-24T04:27:51.214350+00:00
-12887026,anthropic__claude-haiku-4-5,,,,2026-04-24T08:52:39.846157+00:00
+12887026,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-26T00:07:16.009529+00:00
 12890747,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:05:07.479205+00:00
-12892025,anthropic__claude-haiku-4-5,,,,2026-04-24T07:12:47.697027+00:00
+12892025,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:02:12.936030+00:00
 12912655,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T07:12:24.187465+00:00
 12933172,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:06:52.491964+00:00
 12933885,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-24T16:44:14.955392+00:00
 12938469,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T19:49:03.793570+00:00
-12948813,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:43.477070+00:00
-12951295,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:27.264268+00:00
+12948813,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-25T22:46:34.720736+00:00
+12951295,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-26T00:01:05.796321+00:00
 12963301,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:32:34.432981+00:00
 12971034,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T16:36:59.787915+00:00
 12986789,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,medium,2026-04-24T08:35:38.473838+00:00
-12986830,anthropic__claude-haiku-4-5,,,,2026-04-24T09:09:42.377472+00:00
+12986830,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:08:18.415111+00:00
 12995119,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:10:52.674122+00:00
 12997101,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T09:34:22.084311+00:00
 13000870,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:16:31.184681+00:00
 13015485,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-24T17:13:37.678351+00:00
-13015850,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:54.812644+00:00
+13015850,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:12:13.700790+00:00
 13019112,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-24T03:56:18.945251+00:00
 13027323,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T05:22:29.957990+00:00
 13033003,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T16:58:46.028848+00:00
 13043595,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T16:45:00.566767+00:00
 13046202,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T16:51:29.993429+00:00
-13051130,anthropic__claude-haiku-4-5,,,,2026-04-24T04:18:26.800077+00:00
+13051130,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:37:36.687589+00:00
 13059464,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T21:04:52.676563+00:00
 13064809,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:39:11.003042+00:00
-13074073,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:39.407613+00:00
+13074073,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:55:02.204211+00:00
 13074997,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T17:15:38.269846+00:00
 13078312,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T18:16:46.384997+00:00
 13084848,anthropic__claude-haiku-4-5,"[""delay""]",procedural,low,2026-04-25T21:05:52.285827+00:00
 13086479,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T04:51:21.898030+00:00
 13088313,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-24T18:28:44.569502+00:00
-13089058,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:38.749729+00:00
-13110967,anthropic__claude-haiku-4-5,,,,2026-04-24T06:05:28.179234+00:00
+13089058,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:28:39.919443+00:00
+13110967,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:34:58.113394+00:00
 13113813,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T06:06:03.897816+00:00
 13116804,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T18:11:46.379981+00:00
 13117467,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:56:00.338939+00:00
-13129271,anthropic__claude-haiku-4-5,,,,2026-04-24T05:04:37.564409+00:00
+13129271,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:49:35.052952+00:00
 13133809,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T21:42:55.948227+00:00
 13136990,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T07:29:02.102888+00:00
 13143690,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T04:27:03.341535+00:00
-13158332,anthropic__claude-haiku-4-5,,,,2026-04-24T06:23:44.140270+00:00
+13158332,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:25:14.292349+00:00
 13159531,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:41:56.400003+00:00
 13193172,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-24T09:14:17.684037+00:00
-13201708,anthropic__claude-haiku-4-5,,,,2026-04-24T06:05:27.422614+00:00
+13201708,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T01:01:24.773402+00:00
 13204303,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T05:06:13.001698+00:00
-13220607,anthropic__claude-haiku-4-5,,,,2026-04-24T04:51:45.025764+00:00
+13220607,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:40:54.470847+00:00
 13221914,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-25T21:10:38.174518+00:00
-13222069,anthropic__claude-haiku-4-5,,,,2026-04-24T05:29:24.702536+00:00
+13222069,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-26T01:12:20.352424+00:00
 13230416,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T08:52:45.928040+00:00
 13237213,anthropic__claude-haiku-4-5,"[""unethical_collections""]",interactional,medium,2026-04-24T04:51:20.927966+00:00
-13245986,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:29.073705+00:00
+13245986,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T00:12:58.441102+00:00
 13248757,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T20:00:10.103480+00:00
 13255548,anthropic__claude-haiku-4-5,"[""unethical_collections""]",procedural,high,2026-04-24T16:56:44.857132+00:00
-13268835,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:05.581447+00:00
+13268835,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T23:01:28.058985+00:00
 13269014,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T16:35:45.226859+00:00
 13271542,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:08:52.388392+00:00
 13271550,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T17:31:23.796011+00:00
 13276899,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T16:47:29.902634+00:00
 13277447,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T08:51:33.632813+00:00
 13281744,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T06:23:44.624128+00:00
-13285907,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:03.526526+00:00
+13285907,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T23:43:06.385107+00:00
 13291594,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T04:21:27.291262+00:00
 13297504,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T16:50:45.044661+00:00
 13298213,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T03:52:43.017446+00:00
@@ -294,12 +294,12 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 13351575,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T17:50:35.584039+00:00
 13357175,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T16:57:15.148426+00:00
 13383649,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:08:22.381275+00:00
-13385771,anthropic__claude-haiku-4-5,,,,2026-04-24T04:20:15.401631+00:00
+13385771,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:56:55.354120+00:00
 13396957,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T18:07:01.745324+00:00
 13400651,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T06:23:32.930630+00:00
-13418972,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:28.621658+00:00
+13418972,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:54:32.346214+00:00
 13428089,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T04:22:03.313194+00:00
-13444129,anthropic__claude-haiku-4-5,,,,2026-04-24T06:06:15.276579+00:00
+13444129,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:59:50.031830+00:00
 13464664,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T17:31:38.647925+00:00
 13485834,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:19:16.382133+00:00
 13488117,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:53:14.835972+00:00
@@ -309,39 +309,39 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 13536172,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T17:19:40.785910+00:00
 13549191,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:16:37.853474+00:00
 13551332,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:10:01.507469+00:00
-13558826,anthropic__claude-haiku-4-5,,,,2026-04-24T08:34:50.318369+00:00
+13558826,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T22:45:49.816819+00:00
 13566099,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:09:22.956353+00:00
 13568184,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T20:02:21.311836+00:00
 13575816,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T17:00:23.436258+00:00
-13582981,anthropic__claude-haiku-4-5,,,,2026-04-24T04:25:02.705404+00:00
+13582981,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-26T01:30:22.935215+00:00
 13583269,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:14:31.074353+00:00
-13587481,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:30.848838+00:00
+13587481,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T22:55:38.905696+00:00
 13591849,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T09:09:59.500175+00:00
 13592296,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T07:12:35.939942+00:00
-13600276,anthropic__claude-haiku-4-5,,,,2026-04-24T04:19:52.051461+00:00
+13600276,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T23:12:04.572134+00:00
 13605248,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T06:56:19.721372+00:00
 13611491,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T18:11:31.561679+00:00
 13612977,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T04:26:39.250791+00:00
-13619485,anthropic__claude-haiku-4-5,,,,2026-04-24T04:19:27.179893+00:00
+13619485,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:54:41.836228+00:00
 13640445,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:26:37.458800+00:00
 13643574,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",distributive,high,2026-04-25T21:33:37.620918+00:00
 13658932,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T17:09:52.764511+00:00
 13667894,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-24T09:09:42.388298+00:00
-13668747,anthropic__claude-haiku-4-5,,,,2026-04-24T04:22:15.350013+00:00
+13668747,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:21:00.099239+00:00
 13671978,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T04:51:22.027125+00:00
 13698848,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T16:43:15.138581+00:00
 13734113,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T03:52:16.236645+00:00
 13735670,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T03:50:42.517944+00:00
-13735994,anthropic__claude-haiku-4-5,,,,2026-04-24T03:57:18.531967+00:00
+13735994,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:04:13.166219+00:00
 13744389,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-25T21:21:52.865169+00:00
 13749179,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-24T04:20:51.012522+00:00
 13750264,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,low,2026-04-25T21:25:22.277990+00:00
-13761075,anthropic__claude-haiku-4-5,,,,2026-04-24T05:05:01.777965+00:00
-13763469,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:24.826876+00:00
+13761075,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-25T22:48:04.830600+00:00
+13763469,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:36:27.778816+00:00
 13765164,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T18:15:16.257631+00:00
-13792978,anthropic__claude-haiku-4-5,,,,2026-04-24T03:59:30.772099+00:00
+13792978,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-25T22:56:39.532460+00:00
 13794116,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T17:09:08.020451+00:00
-13817860,anthropic__claude-haiku-4-5,,,,2026-04-24T04:20:51.407773+00:00
+13817860,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-25T23:29:20.270222+00:00
 13818373,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:52:54.771534+00:00
 13819490,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T03:43:07.326187+00:00
 13822727,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T19:31:47.054473+00:00
@@ -349,7 +349,7 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 13825209,anthropic__claude-haiku-4-5,"[""none_other""]",interactional,medium,2026-04-24T16:52:59.910857+00:00
 13827388,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T07:12:48.812680+00:00
 13832705,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T09:30:22.199268+00:00
-13846800,anthropic__claude-haiku-4-5,,,,2026-04-24T04:51:45.820188+00:00
+13846800,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:52:45.699233+00:00
 13849000,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T08:01:56.903591+00:00
 13855043,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:20:03.550189+00:00
 13860992,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T03:59:54.638286+00:00
@@ -377,19 +377,19 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 14078618,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T06:23:08.805459+00:00
 14089671,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T16:55:30.138662+00:00
 14128678,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,high,2026-04-25T21:04:37.569266+00:00
-14136663,anthropic__claude-haiku-4-5,,,,2026-04-24T09:36:22.036579+00:00
-14136966,anthropic__claude-haiku-4-5,,,,2026-04-24T04:18:03.144968+00:00
+14136663,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:35:43.137542+00:00
+14136966,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:58:49.633185+00:00
 14149355,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:17:02.981681+00:00
 14154053,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:48:14.830917+00:00
 14154247,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",interactional,high,2026-04-24T08:53:10.805032+00:00
 14155450,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:40:15.018379+00:00
 14173185,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T19:21:45.151610+00:00
 14174827,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:00:52.805382+00:00
-14186904,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:10.023627+00:00
+14186904,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T00:06:45.157081+00:00
 14188858,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T19:00:16.738918+00:00
 14195288,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,high,2026-04-24T09:09:06.229717+00:00
-14202411,anthropic__claude-haiku-4-5,,,,2026-04-24T09:31:45.960322+00:00
-14216211,anthropic__claude-haiku-4-5,,,,2026-04-24T09:30:58.229431+00:00
+14202411,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-25T23:42:36.448175+00:00
+14216211,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T00:53:49.501510+00:00
 14216249,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T04:21:15.371091+00:00
 14245338,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T08:17:42.631395+00:00
 14246426,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T09:33:10.486962+00:00
@@ -406,11 +406,11 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 14324481,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T17:12:37.597851+00:00
 14331197,anthropic__claude-haiku-4-5,"[""unethical_collections""]",interactional,high,2026-04-24T03:59:18.996458+00:00
 14350623,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T19:45:36.459209+00:00
-14356846,anthropic__claude-haiku-4-5,,,,2026-04-24T05:29:48.184282+00:00
+14356846,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-26T00:57:43.381143+00:00
 14365235,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:52:39.793560+00:00
 14365315,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:27:28.011805+00:00
 14370426,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T17:07:24.189825+00:00
-14374704,anthropic__claude-haiku-4-5,,,,2026-04-24T04:22:39.529698+00:00
+14374704,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:02:41.472829+00:00
 14377878,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,medium,2026-04-24T16:41:15.790498+00:00
 14395579,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T04:51:33.496192+00:00
 14395775,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:51:06.693928+00:00
@@ -419,18 +419,18 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 14440315,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-25T21:40:41.246056+00:00
 14443246,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T04:24:03.298511+00:00
 14444667,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T03:52:18.825746+00:00
-14446093,anthropic__claude-haiku-4-5,,,,2026-04-24T09:36:22.291709+00:00
-14453927,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:46.588594+00:00
+14446093,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:46:49.727808+00:00
+14453927,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:29:10.118776+00:00
 14470206,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:54:54.576357+00:00
 14479186,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T21:41:41.351016+00:00
 14479408,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:18:07.484549+00:00
 14505591,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:55:00.156156+00:00
 14512093,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T05:48:10.631690+00:00
 14515596,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-25T21:44:56.404372+00:00
-14516305,anthropic__claude-haiku-4-5,,,,2026-04-24T04:51:44.671868+00:00
+14516305,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-25T23:03:43.064247+00:00
 14532199,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:20:37.678216+00:00
-14540832,anthropic__claude-haiku-4-5,,,,2026-04-24T03:57:42.576458+00:00
-14547020,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:10.022324+00:00
+14540832,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T22:49:19.568342+00:00
+14547020,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:56:53.513604+00:00
 14566305,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:15:52.646993+00:00
 14567541,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:45:14.988112+00:00
 14573709,anthropic__claude-haiku-4-5,"[""delay""]",distributive,medium,2026-04-24T05:04:37.238288+00:00
@@ -438,29 +438,29 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 14592535,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:16:07.967230+00:00
 14612214,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T03:53:06.775389+00:00
 14619080,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T04:26:03.396791+00:00
-14620078,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:46.632651+00:00
+14620078,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:28:55.271864+00:00
 14622518,anthropic__claude-haiku-4-5,"[""unethical_collections""]",interactional,high,2026-04-24T16:46:14.869123+00:00
 14623067,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T03:57:30.795405+00:00
 14624138,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:33:58.299501+00:00
 14636897,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections"", ""delay""]",procedural,high,2026-04-25T21:27:07.513435+00:00
 14640869,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-24T07:44:19.543670+00:00
 14665976,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T08:01:20.454680+00:00
-14679594,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:04.576771+00:00
+14679594,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:06:55.785248+00:00
 14680760,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,medium,2026-04-24T18:51:38.123894+00:00
 14681483,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T09:51:51.448163+00:00
 14681553,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T07:12:24.191904+00:00
 14687741,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T09:30:35.345163+00:00
 14702868,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:08:01.956805+00:00
-14704315,anthropic__claude-haiku-4-5,,,,2026-04-24T07:44:43.462147+00:00
+14704315,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:03:28.111441+00:00
 14704547,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T04:27:15.191059+00:00
 14705866,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-24T09:10:18.480046+00:00
 14710373,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T16:50:59.938829+00:00
 14714706,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:53:58.866192+00:00
-14718632,anthropic__claude-haiku-4-5,,,,2026-04-24T09:31:10.358389+00:00
+14718632,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:22:52.304814+00:00
 14725342,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:46:29.847057+00:00
 14728877,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T21:26:07.329356+00:00
-14734012,anthropic__claude-haiku-4-5,,,,2026-04-24T07:28:34.199202+00:00
-14738227,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:26.636813+00:00
+14734012,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:56:24.593857+00:00
+14738227,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-26T01:24:14.387459+00:00
 14742065,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:29:22.406531+00:00
 14752769,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:10:16.302044+00:00
 14754906,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T05:06:37.103233+00:00
@@ -471,11 +471,11 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 14786337,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-25T21:06:37.387315+00:00
 14803197,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:38:26.164138+00:00
 14804701,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:40:56.088859+00:00
-14817561,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:52.281852+00:00
+14817561,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:24:29.595268+00:00
 14834182,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:32:53.672668+00:00
 14840077,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T06:55:55.215301+00:00
 14861207,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T08:17:42.631068+00:00
-14869736,anthropic__claude-haiku-4-5,,,,2026-04-24T05:48:46.105339+00:00
+14869736,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:51:34.625881+00:00
 14882572,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T20:12:43.521509+00:00
 14908285,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T03:56:42.729944+00:00
 14909401,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T05:29:48.634675+00:00
@@ -483,11 +483,11 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 14915428,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T18:16:02.208497+00:00
 14920303,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:52:30.002872+00:00
 14923441,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:14:52.395991+00:00
-14926968,anthropic__claude-haiku-4-5,,,,2026-04-24T09:10:29.960754+00:00
+14926968,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:10:34.726293+00:00
 14929529,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T05:22:17.673672+00:00
 14929681,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:42:44.986013+00:00
 14930563,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T18:51:53.015825+00:00
-14931133,anthropic__claude-haiku-4-5,,,,2026-04-24T04:34:48.960699+00:00
+14931133,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,low,2026-04-26T00:20:56.653268+00:00
 14935706,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T16:50:30.194483+00:00
 14942676,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:07:37.780646+00:00
 14953492,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-25T21:09:37.709706+00:00
@@ -508,9 +508,9 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 15077525,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-24T19:48:48.512255+00:00
 15090337,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T04:06:53.069404+00:00
 15095246,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T05:29:12.423832+00:00
-15095649,anthropic__claude-haiku-4-5,,,,2026-04-24T04:00:09.651506+00:00
+15095649,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:59:46.886358+00:00
 15099110,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:19:55.443932+00:00
-15100917,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:27.794589+00:00
+15100917,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:44:49.747320+00:00
 15126478,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:48:45.021394+00:00
 15134915,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T04:35:01.291290+00:00
 15142893,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T19:01:22.979468+00:00
@@ -522,22 +522,22 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 15182282,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""none_other""]",procedural,high,2026-04-24T17:17:37.874035+00:00
 15204620,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:40:29.825677+00:00
 15207063,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-25T21:13:37.779323+00:00
-15208080,anthropic__claude-haiku-4-5,,,,2026-04-24T05:48:34.362545+00:00
+15208080,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:15:40.959760+00:00
 15225478,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T16:34:44.913658+00:00
 15227200,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T18:14:01.276109+00:00
 15231803,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:17:02.018352+00:00
 15233058,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-24T04:22:27.144342+00:00
-15233480,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:39.217833+00:00
+15233480,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,medium,2026-04-26T01:30:07.989648+00:00
 15235314,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T21:43:10.953569+00:00
-15236842,anthropic__claude-haiku-4-5,,,,2026-04-24T05:22:53.510896+00:00
-15237861,anthropic__claude-haiku-4-5,,,,2026-04-24T04:21:15.243231+00:00
+15236842,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:09:04.494082+00:00
+15237861,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:04:41.094366+00:00
 15239629,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-24T04:25:51.293759+00:00
 15240358,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:52:45.162508+00:00
 15248455,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:10:07.109711+00:00
 15252977,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T19:15:39.536015+00:00
 15263701,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T05:47:10.846226+00:00
 15265818,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T03:50:42.490099+00:00
-15265882,anthropic__claude-haiku-4-5,,,,2026-04-24T08:52:45.672533+00:00
+15265882,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-25T22:56:09.835707+00:00
 15289092,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:28:03.089285+00:00
 15290823,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:18:37.580817+00:00
 15316128,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T09:31:46.670342+00:00
@@ -546,26 +546,26 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 15336655,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-24T07:28:34.816264+00:00
 15374687,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T08:34:50.210211+00:00
 15374731,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T21:11:07.316038+00:00
-15378744,anthropic__claude-haiku-4-5,,,,2026-04-24T09:34:22.120757+00:00
+15378744,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:36:12.789373+00:00
 15400013,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T03:50:55.064179+00:00
 15435102,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T17:12:56.124441+00:00
 15442250,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:34:10.444480+00:00
-15447856,anthropic__claude-haiku-4-5,,,,2026-04-24T06:06:16.004390+00:00
+15447856,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:43:34.642170+00:00
 15452389,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:32:07.474844+00:00
 15463386,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T16:55:14.929651+00:00
 15479980,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T18:14:46.339742+00:00
 15492875,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T06:23:56.668813+00:00
-15498890,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:42.488175+00:00
+15498890,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-25T22:48:19.769320+00:00
 15500894,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-25T21:17:37.375793+00:00
-15502763,anthropic__claude-haiku-4-5,,,,2026-04-24T09:51:50.617757+00:00
+15502763,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-25T22:42:19.767114+00:00
 15504579,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T16:46:45.170453+00:00
 15527598,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T21:10:22.465310+00:00
-15529230,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:25.172158+00:00
+15529230,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T22:49:49.613871+00:00
 15531207,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,medium,2026-04-24T05:04:37.077617+00:00
 15532249,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T17:15:52.910675+00:00
 15535529,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:20:39.454738+00:00
 15546657,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-25T21:29:52.557661+00:00
-15556783,anthropic__claude-haiku-4-5,,,,2026-04-24T06:39:57.257173+00:00
+15556783,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:55:57.601979+00:00
 15573015,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-25T21:05:37.583685+00:00
 15593304,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:06:53.324902+00:00
 15594332,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",distributive,high,2026-04-24T04:24:15.219556+00:00
@@ -576,10 +576,10 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 15630816,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T03:54:06.677510+00:00
 15634597,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:48:29.849478+00:00
 15637148,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-25T21:18:52.529012+00:00
-15639871,anthropic__claude-haiku-4-5,,,,2026-04-24T03:55:42.911384+00:00
+15639871,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-26T00:21:12.592216+00:00
 15648424,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T08:17:55.176642+00:00
-15651907,anthropic__claude-haiku-4-5,,,,2026-04-24T07:12:35.788183+00:00
-15670607,anthropic__claude-haiku-4-5,,,,2026-04-24T04:25:14.996550+00:00
+15651907,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T22:52:04.448515+00:00
+15670607,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T22:47:49.871881+00:00
 15674081,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:52:03.497262+00:00
 15681533,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T05:47:46.907409+00:00
 15686608,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,high,2026-04-24T16:41:45.022126+00:00
@@ -589,34 +589,34 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 15702140,anthropic__claude-haiku-4-5,"[""unethical_collections""]",interactional,medium,2026-04-24T16:38:44.968497+00:00
 15724869,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:26:22.379664+00:00
 15724962,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T21:21:37.403650+00:00
-15752922,anthropic__claude-haiku-4-5,,,,2026-04-24T04:25:39.413952+00:00
-15773819,anthropic__claude-haiku-4-5,,,,2026-04-24T03:55:06.666150+00:00
+15752922,anthropic__claude-haiku-4-5,"[""delay""]",procedural,low,2026-04-26T00:06:30.145645+00:00
+15773819,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T00:43:46.434004+00:00
 15795048,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T17:02:12.540258+00:00
 15800751,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-25T21:12:22.583373+00:00
-15804293,anthropic__claude-haiku-4-5,,,,2026-04-24T04:24:15.121011+00:00
+15804293,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-26T01:26:59.662685+00:00
 15809090,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T21:46:12.346974+00:00
 15822889,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-24T03:43:07.228422+00:00
 15841127,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",interactional,high,2026-04-24T04:17:02.875654+00:00
 15841439,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T06:05:05.271524+00:00
 15843624,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:08:52.759007+00:00
-15850126,anthropic__claude-haiku-4-5,,,,2026-04-24T09:52:03.097552+00:00
+15850126,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:35:57.982034+00:00
 15854362,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:15:06.148550+00:00
 15872903,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T04:35:25.292111+00:00
 15884004,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:42:29.924709+00:00
 15887773,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T04:18:51.483694+00:00
 15890941,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T18:59:19.890866+00:00
-15893192,anthropic__claude-haiku-4-5,,,,2026-04-24T04:24:15.237059+00:00
+15893192,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T00:58:13.076229+00:00
 15894264,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:03:37.575326+00:00
 15918615,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T05:04:49.359958+00:00
 15944154,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T19:31:31.920464+00:00
 15983307,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T16:53:44.964553+00:00
 15989219,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T05:48:34.713353+00:00
-15989936,anthropic__claude-haiku-4-5,,,,2026-04-24T04:25:51.379358+00:00
+15989936,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:50:34.768689+00:00
 15996333,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:52:17.224261+00:00
 16005953,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-25T21:33:22.505802+00:00
 16034608,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T06:05:03.574761+00:00
 16054935,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-24T04:24:39.166592+00:00
-16057167,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:30.800886+00:00
+16057167,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:15:26.109783+00:00
 16061476,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge"", ""delay""]",distributive,high,2026-04-25T21:08:07.388970+00:00
 16071377,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:03:52.270018+00:00
 16072178,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:22:37.544843+00:00
@@ -629,69 +629,69 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 16129232,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T09:30:22.619281+00:00
 16131767,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:52:08.102089+00:00
 16135438,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-24T08:51:34.140835+00:00
-16139547,anthropic__claude-haiku-4-5,,,,2026-04-24T06:05:51.611874+00:00
+16139547,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:56:40.408106+00:00
 16140871,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",distributive,high,2026-04-24T04:17:15.288215+00:00
-16143488,anthropic__claude-haiku-4-5,,,,2026-04-24T04:24:39.031965+00:00
+16143488,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:48:55.609864+00:00
 16147650,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:25:37.721525+00:00
 16161275,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-25T21:20:22.646493+00:00
 16170258,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T17:22:44.639529+00:00
 16176426,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:07:52.549486+00:00
 16177893,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:50:50.359285+00:00
-16204820,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:24.931760+00:00
+16204820,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:35:13.031670+00:00
 16216566,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:30:22.170641+00:00
 16236574,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:23:52.368832+00:00
 16238696,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T17:16:38.253914+00:00
 16254199,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T09:52:16.086299+00:00
 16266659,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:07:07.901352+00:00
 16267932,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-24T18:05:01.283022+00:00
-16279861,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:25.236401+00:00
+16279861,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:29:05.334052+00:00
 16290584,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T04:07:05.295553+00:00
 16293862,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:31:22.623843+00:00
 16294953,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:38:55.934479+00:00
 16302684,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T18:08:46.702504+00:00
 16306669,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-25T21:34:37.584507+00:00
 16309227,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T17:46:15.965373+00:00
-16331093,anthropic__claude-haiku-4-5,,,,2026-04-24T03:56:54.465567+00:00
+16331093,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:01:43.231444+00:00
 16346270,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T07:12:24.187091+00:00
-16349897,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:36.639687+00:00
+16349897,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:03:58.078826+00:00
 16351040,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T05:46:58.526805+00:00
 16385775,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T21:44:11.266307+00:00
 16392462,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T19:01:07.707224+00:00
 16393683,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T09:30:22.871106+00:00
 16420530,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T04:25:27.525830+00:00
 16421092,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,high,2026-04-25T21:42:26.390016+00:00
-16426331,anthropic__claude-haiku-4-5,,,,2026-04-24T08:51:33.611850+00:00
+16426331,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:30:29.009384+00:00
 16464371,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T16:41:00.062522+00:00
 16510388,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T17:15:07.799234+00:00
-16564466,anthropic__claude-haiku-4-5,,,,2026-04-24T06:05:28.045683+00:00
+16564466,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:44:35.525764+00:00
 16565350,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T03:43:19.462247+00:00
-16586237,anthropic__claude-haiku-4-5,,,,2026-04-24T09:31:58.253889+00:00
+16586237,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:00:06.441309+00:00
 16593914,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:11:52.512493+00:00
 16624993,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:19:51.488284+00:00
 16631613,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:36:10.419705+00:00
 16643807,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:15:37.300094+00:00
-16665822,anthropic__claude-haiku-4-5,,,,2026-04-24T09:34:46.713731+00:00
+16665822,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T23:23:07.329838+00:00
 16703355,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T17:11:37.833695+00:00
 16706230,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:14:23.118418+00:00
 16710406,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T08:18:30.936573+00:00
 16715628,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T17:09:38.268230+00:00
-16715951,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:03.823184+00:00
-16717684,anthropic__claude-haiku-4-5,,,,2026-04-24T04:19:03.336930+00:00
+16715951,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-26T01:35:28.185744+00:00
+16717684,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:09:19.754154+00:00
 16720024,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T07:28:22.194359+00:00
 16727253,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:06:53.017003+00:00
-16733981,anthropic__claude-haiku-4-5,,,,2026-04-24T04:19:39.102150+00:00
-16738033,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:25.226660+00:00
-16754593,anthropic__claude-haiku-4-5,,,,2026-04-24T04:28:03.164724+00:00
-16756604,anthropic__claude-haiku-4-5,,,,2026-04-24T08:01:32.424382+00:00
+16733981,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:53:36.186546+00:00
+16738033,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:45:19.651305+00:00
+16754593,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:53:00.681011+00:00
+16756604,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:34:42.910181+00:00
 16761956,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T09:14:18.568371+00:00
-16768086,anthropic__claude-haiku-4-5,,,,2026-04-24T04:25:27.591585+00:00
+16768086,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:02:26.607812+00:00
 16768433,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,high,2026-04-24T16:48:00.219474+00:00
 16794462,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:22:07.509896+00:00
 16800435,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T08:34:50.226587+00:00
 16805910,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T16:58:16.053883+00:00
 16812819,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T21:45:41.080218+00:00
-16813691,anthropic__claude-haiku-4-5,,,,2026-04-24T05:48:10.490790+00:00
-16839503,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:30.614623+00:00
+16813691,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:24:59.546987+00:00
+16839503,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T01:09:55.243448+00:00
 16840236,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:28:37.662316+00:00
 16842973,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-24T06:39:33.465014+00:00
 16843120,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",distributive,medium,2026-04-24T09:32:22.477848+00:00
@@ -701,16 +701,16 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 16872480,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:35:46.149230+00:00
 16890639,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T07:28:46.552488+00:00
 16891898,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T19:07:20.675546+00:00
-16894068,anthropic__claude-haiku-4-5,,,,2026-04-24T05:22:54.169000+00:00
-16924304,anthropic__claude-haiku-4-5,,,,2026-04-24T09:32:10.235968+00:00
+16894068,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-25T23:11:19.557330+00:00
+16924304,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:00:31.920275+00:00
 16932903,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-25T21:34:22.677630+00:00
 16937297,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:13:53.065042+00:00
 16950623,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T18:10:46.612242+00:00
 16959030,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T08:35:26.966692+00:00
 16973199,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:53:27.955058+00:00
 16974791,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T05:22:54.074187+00:00
-16989402,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:03.084459+00:00
-16992400,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:54.458675+00:00
+16989402,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:49:25.611791+00:00
+16992400,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T22:54:27.432191+00:00
 16995879,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T09:36:34.210635+00:00
 17007403,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T04:26:15.411768+00:00
 17008533,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:23:08.179075+00:00
@@ -718,37 +718,37 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 17037975,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T07:44:55.531271+00:00
 17039590,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T05:48:22.483046+00:00
 17041202,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,medium,2026-04-24T18:15:46.286474+00:00
-17067490,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:38.717976+00:00
-17068205,anthropic__claude-haiku-4-5,,,,2026-04-24T08:17:42.485145+00:00
+17067490,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T22:45:04.473024+00:00
+17068205,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-25T22:43:19.439219+00:00
 17080530,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",interactional,high,2026-04-24T16:49:45.443947+00:00
 17081973,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:38:41.221811+00:00
 17082725,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T04:20:15.237035+00:00
-17083708,anthropic__claude-haiku-4-5,,,,2026-04-24T04:35:02.171284+00:00
+17083708,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:51:04.638916+00:00
 17083842,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T21:21:07.599891+00:00
 17095868,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:52:27.527797+00:00
-17106228,anthropic__claude-haiku-4-5,,,,2026-04-24T08:18:07.247424+00:00
-17110998,anthropic__claude-haiku-4-5,,,,2026-04-24T04:21:38.839031+00:00
+17106228,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,medium,2026-04-25T23:11:35.118074+00:00
+17110998,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:46:19.504641+00:00
 17113795,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-24T08:51:34.329092+00:00
 17121250,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:43:45.021012+00:00
 17122374,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T16:41:29.886811+00:00
 17127705,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T08:52:21.906706+00:00
-17142175,anthropic__claude-haiku-4-5,,,,2026-04-24T05:04:49.538046+00:00
-17154509,anthropic__claude-haiku-4-5,,,,2026-04-24T08:53:10.193005+00:00
+17142175,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,low,2026-04-26T00:55:42.516153+00:00
+17154509,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-26T00:13:59.382135+00:00
 17156432,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:16:23.123836+00:00
 17163716,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T17:08:37.983922+00:00
 17172564,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:45:11.118369+00:00
-17186513,anthropic__claude-haiku-4-5,,,,2026-04-24T08:53:10.007838+00:00
+17186513,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:03:13.158238+00:00
 17202509,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-24T09:51:51.448715+00:00
 17214209,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T05:47:34.614387+00:00
 17216945,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-24T19:01:38.389086+00:00
 17219980,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T21:30:52.304177+00:00
-17220908,anthropic__claude-haiku-4-5,,,,2026-04-24T03:59:06.960582+00:00
+17220908,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:30:14.305942+00:00
 17223413,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-24T06:07:27.835186+00:00
 17230853,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T04:26:27.465858+00:00
 17254219,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T21:17:52.671293+00:00
 17256629,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T17:01:57.315122+00:00
 17258506,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T17:17:53.577736+00:00
-17260689,anthropic__claude-haiku-4-5,,,,2026-04-24T05:46:57.807033+00:00
+17260689,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:24:00.051457+00:00
 17262423,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T16:53:30.207363+00:00
 17283561,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T21:30:37.984974+00:00
 17284715,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T17:14:08.360780+00:00
@@ -760,35 +760,35 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 17329962,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",interactional,medium,2026-04-25T21:11:37.485959+00:00
 17334561,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T09:10:30.511273+00:00
 17353078,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T16:57:45.186910+00:00
-17353738,anthropic__claude-haiku-4-5,,,,2026-04-24T04:23:51.933379+00:00
+17353738,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T00:06:15.569829+00:00
 17358434,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T05:46:58.343066+00:00
-17360538,anthropic__claude-haiku-4-5,,,,2026-04-24T09:35:22.485198+00:00
-17360629,anthropic__claude-haiku-4-5,,,,2026-04-24T05:22:42.057051+00:00
-17364271,anthropic__claude-haiku-4-5,,,,2026-04-24T04:24:38.635542+00:00
+17360538,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:25:59.554508+00:00
+17360629,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-26T01:01:54.881183+00:00
+17364271,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:29:35.259624+00:00
 17369756,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-24T06:55:55.322166+00:00
-17387675,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:15.784234+00:00
-17401735,anthropic__claude-haiku-4-5,,,,2026-04-24T04:20:39.093777+00:00
+17387675,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-26T00:13:13.711296+00:00
+17401735,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:59:34.970847+00:00
 17429150,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",distributive,high,2026-04-24T03:54:18.975966+00:00
 17454458,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T21:16:55.074025+00:00
-17467230,anthropic__claude-haiku-4-5,,,,2026-04-24T05:05:01.357984+00:00
+17467230,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:54:47.536303+00:00
 17525515,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T06:05:29.139740+00:00
 17536089,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T16:49:15.340099+00:00
 17536155,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-24T16:34:00.064108+00:00
-17600342,anthropic__claude-haiku-4-5,,,,2026-04-24T03:52:25.819522+00:00
+17600342,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:57:27.979741+00:00
 17619605,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",distributive,high,2026-04-24T17:46:30.772709+00:00
 17753390,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T18:51:15.108498+00:00
 17754909,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T18:59:49.759924+00:00
-17757666,anthropic__claude-haiku-4-5,,,,2026-04-24T06:07:04.135807+00:00
-17759911,anthropic__claude-haiku-4-5,,,,2026-04-24T09:53:03.237943+00:00
-17761019,anthropic__claude-haiku-4-5,,,,2026-04-24T09:36:23.776398+00:00
+17757666,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:04:26.334503+00:00
+17759911,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:45:14.544532+00:00
+17761019,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:37:51.877883+00:00
 17762329,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T04:18:27.404644+00:00
 17762908,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",distributive,high,2026-04-24T16:36:15.024307+00:00
 17828838,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T21:30:07.697239+00:00
 17829996,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,medium,2026-04-24T16:54:15.294926+00:00
 17831398,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:25:07.630406+00:00
 17836278,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",interactional,high,2026-04-25T21:24:22.577905+00:00
-17847682,anthropic__claude-haiku-4-5,,,,2026-04-24T09:52:04.022704+00:00
-17848373,anthropic__claude-haiku-4-5,,,,2026-04-24T09:32:46.309056+00:00
+17847682,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:54:04.854055+00:00
+17848373,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:15:14.559771+00:00
 17866623,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:27:34.801750+00:00
 17869325,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:58:42.960831+00:00
 17870141,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T08:34:51.090183+00:00
@@ -796,27 +796,27 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 17874509,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T03:56:31.057754+00:00
 17875350,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T05:47:22.671464+00:00
 17877394,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T09:09:06.417889+00:00
-17877895,anthropic__claude-haiku-4-5,,,,2026-04-24T03:58:55.078785+00:00
-17879305,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:04.396523+00:00
-17887209,anthropic__claude-haiku-4-5,,,,2026-04-24T03:54:42.711852+00:00
+17877895,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:52:19.592994+00:00
+17879305,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:12:35.816971+00:00
+17887209,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-25T23:09:34.396289+00:00
 17887985,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",distributive,high,2026-04-24T17:53:29.679472+00:00
 17895629,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections"", ""delay""]",procedural,high,2026-04-24T08:01:32.963151+00:00
-17901041,anthropic__claude-haiku-4-5,,,,2026-04-24T04:27:15.215822+00:00
+17901041,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:26:44.405527+00:00
 17901186,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T06:06:40.285245+00:00
 17901792,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T07:13:00.383577+00:00
 17905549,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T05:48:07.220018+00:00
 17916163,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T04:34:49.056148+00:00
-17925796,anthropic__claude-haiku-4-5,,,,2026-04-24T09:52:03.128693+00:00
+17925796,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-26T00:12:43.705625+00:00
 17933102,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:05:22.561802+00:00
 17936966,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:13:22.386357+00:00
 17937456,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T16:39:30.128465+00:00
-17952468,anthropic__claude-haiku-4-5,,,,2026-04-24T08:35:14.228546+00:00
+17952468,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:19:47.615418+00:00
 17995077,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-24T07:44:19.514242+00:00
-17996359,anthropic__claude-haiku-4-5,,,,2026-04-24T09:33:21.743402+00:00
+17996359,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:14:14.263243+00:00
 17998325,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T16:33:29.954465+00:00
 18010041,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:09:07.507659+00:00
 18030230,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T06:07:03.961770+00:00
-18031673,anthropic__claude-haiku-4-5,,,,2026-04-24T04:21:40.623553+00:00
+18031673,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-26T00:40:39.495715+00:00
 18037295,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-24T19:45:06.473543+00:00
 18041402,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:49:59.989326+00:00
 18045356,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T18:05:46.276563+00:00
@@ -826,7 +826,7 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 18060539,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T18:06:17.319794+00:00
 18065299,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:51:23.021330+00:00
 18080785,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T21:09:22.766408+00:00
-18109805,anthropic__claude-haiku-4-5,,,,2026-04-24T04:22:16.171187+00:00
+18109805,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T23:09:49.751234+00:00
 18112213,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:31:24.469206+00:00
 18114692,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T16:45:30.207764+00:00
 18116002,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:22:22.441185+00:00
@@ -839,17 +839,17 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 18158054,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T07:28:22.508111+00:00
 18161403,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T18:12:01.462917+00:00
 18164411,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T04:23:02.997796+00:00
-18239063,anthropic__claude-haiku-4-5,,,,2026-04-24T04:35:01.470035+00:00
+18239063,anthropic__claude-haiku-4-5,"[""none_other""]",interactional,medium,2026-04-25T22:42:34.888508+00:00
 18246074,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:43:55.857532+00:00
 18281826,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T06:05:16.112231+00:00
-18296655,anthropic__claude-haiku-4-5,,,,2026-04-24T06:23:45.064354+00:00
+18296655,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:50:06.687903+00:00
 18316270,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T20:01:51.755501+00:00
 18320629,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T03:55:06.997064+00:00
 18321421,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T20:00:24.556902+00:00
 18335888,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-24T17:11:08.036781+00:00
-18341312,anthropic__claude-haiku-4-5,,,,2026-04-24T03:56:06.347415+00:00
+18341312,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T23:07:10.831548+00:00
 18342994,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:14:53.923151+00:00
-18343958,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:13.096304+00:00
+18343958,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T00:59:19.743697+00:00
 18345803,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T06:39:22.224458+00:00
 18345817,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:34:54.902699+00:00
 18346989,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T21:41:11.153567+00:00
@@ -857,21 +857,21 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 18375053,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T05:29:12.632315+00:00
 18380187,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:54:30.021983+00:00
 18380323,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-24T17:12:07.811668+00:00
-18384440,anthropic__claude-haiku-4-5,,,,2026-04-24T05:47:22.446259+00:00
+18384440,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:26:29.456224+00:00
 18392828,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T18:07:31.764896+00:00
 18395356,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T06:56:43.564331+00:00
 18395452,anthropic__claude-haiku-4-5,"[""delay""]",interactional,high,2026-04-24T17:53:01.827976+00:00
 18397355,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T19:08:24.928909+00:00
 18408264,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-25T21:11:52.578939+00:00
 18415454,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T05:05:58.518079+00:00
-18419839,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:37.304573+00:00
+18419839,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T00:57:58.026633+00:00
 18420076,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T03:51:18.545136+00:00
 18447577,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:06:38.036824+00:00
 18490890,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T17:11:22.673882+00:00
-18546369,anthropic__claude-haiku-4-5,,,,2026-04-24T05:29:12.354329+00:00
+18546369,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:11:49.875163+00:00
 18562624,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T17:53:44.408112+00:00
 18573513,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T08:01:21.076094+00:00
-18574596,anthropic__claude-haiku-4-5,,,,2026-04-24T07:13:00.791044+00:00
+18574596,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:02:56.422775+00:00
 18575033,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T17:31:08.761757+00:00
 18576875,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:55:42.831691+00:00
 18581315,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T05:29:37.393664+00:00
@@ -880,18 +880,18 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 18600023,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T04:51:22.234669+00:00
 18607954,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-24T18:11:01.257717+00:00
 18615947,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:23:37.501188+00:00
-18619479,anthropic__claude-haiku-4-5,,,,2026-04-24T08:01:20.544473+00:00
-18636028,anthropic__claude-haiku-4-5,,,,2026-04-24T09:32:46.804838+00:00
-18638176,anthropic__claude-haiku-4-5,,,,2026-04-24T09:52:39.940980+00:00
+18619479,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T23:08:33.363308+00:00
+18636028,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:11:30.079957+00:00
+18638176,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:44:19.428728+00:00
 18640097,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-24T17:22:29.382971+00:00
 18650429,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T08:51:34.144153+00:00
 18667481,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T04:23:27.683063+00:00
-18669656,anthropic__claude-haiku-4-5,,,,2026-04-24T04:34:48.713369+00:00
+18669656,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T23:29:59.000388+00:00
 18670332,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T07:28:23.961886+00:00
 18678803,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-25T21:07:37.349401+00:00
 18681790,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-24T16:38:14.963562+00:00
 18684062,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:14:18.218242+00:00
-18688615,anthropic__claude-haiku-4-5,,,,2026-04-24T04:51:45.817268+00:00
+18688615,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:46:49.786171+00:00
 18691235,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:17:07.322486+00:00
 18706327,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:53:31.147431+00:00
 18716565,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T17:46:01.428921+00:00
@@ -910,27 +910,27 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 18867421,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:19:03.303087+00:00
 18868692,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T17:18:08.455474+00:00
 18870820,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T04:25:03.321334+00:00
-18871431,anthropic__claude-haiku-4-5,,,,2026-04-24T08:35:25.927739+00:00
+18871431,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:48:49.690792+00:00
 18883237,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T21:12:07.403578+00:00
 18889200,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T18:13:16.643667+00:00
 18891739,anthropic__claude-haiku-4-5,"[""delay""]",interactional,high,2026-04-24T17:10:22.645031+00:00
 18901284,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-25T21:14:07.641848+00:00
-18906446,anthropic__claude-haiku-4-5,,,,2026-04-24T06:23:32.659181+00:00
+18906446,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T22:49:04.522511+00:00
 18906856,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T16:46:00.213233+00:00
-18915312,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:03.873605+00:00
+18915312,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-25T22:43:04.582715+00:00
 18922682,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T19:31:17.158552+00:00
 18927321,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T03:56:54.520115+00:00
 18943183,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T16:38:00.007300+00:00
-18957594,anthropic__claude-haiku-4-5,,,,2026-04-24T06:07:15.895495+00:00
+18957594,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:47:19.481142+00:00
 18965280,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T20:08:53.881282+00:00
 18967000,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T09:31:34.380049+00:00
 18967512,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-24T18:09:01.375581+00:00
-18972124,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:37.524990+00:00
+18972124,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:07:25.680585+00:00
 18994078,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T16:54:01.350365+00:00
-18996236,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:54.826573+00:00
+18996236,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:22:47.551812+00:00
 18999087,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay"", ""unethical_collections""]",procedural,high,2026-04-24T18:09:31.592774+00:00
 19009790,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T19:22:00.370742+00:00
-19010790,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:13.005957+00:00
+19010790,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-25T23:08:48.420688+00:00
 19023099,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T04:51:57.586132+00:00
 19026891,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-24T19:08:10.331108+00:00
 19034889,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T03:58:06.728613+00:00
@@ -938,20 +938,20 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 19037631,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T17:16:07.867295+00:00
 19040693,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T03:43:07.427727+00:00
 19090286,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,medium,2026-04-24T04:51:21.794368+00:00
-19107799,anthropic__claude-haiku-4-5,,,,2026-04-24T06:05:03.370561+00:00
+19107799,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T01:27:55.365822+00:00
 19112824,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T04:34:49.225456+00:00
 19118557,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T16:54:45.068209+00:00
 19119681,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-24T17:13:07.871812+00:00
 19119695,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T18:16:16.235850+00:00
 19202742,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T07:28:22.200390+00:00
-19211484,anthropic__claude-haiku-4-5,,,,2026-04-24T03:53:54.929707+00:00
+19211484,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-26T00:12:28.807264+00:00
 19214944,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T04:26:51.583404+00:00
 19222741,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-24T19:15:24.553604+00:00
-19223224,anthropic__claude-haiku-4-5,,,,2026-04-24T06:07:27.886660+00:00
+19223224,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:46:04.404614+00:00
 19223636,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-24T17:52:46.674272+00:00
 19244260,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",distributive,high,2026-04-24T18:10:31.205012+00:00
 19267468,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-24T19:07:55.070988+00:00
-19343407,anthropic__claude-haiku-4-5,,,,2026-04-24T08:01:44.709096+00:00
+19343407,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:23:44.386528+00:00
 19353079,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T21:24:54.288523+00:00
 19361764,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-24T18:17:17.296421+00:00
 19385990,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T03:57:42.989765+00:00
@@ -959,29 +959,29 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 19419322,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:28:52.282419+00:00
 19419544,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:24:07.259864+00:00
 19447160,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-24T18:15:31.968027+00:00
-19449595,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:39.084626+00:00
+19449595,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:45:34.498777+00:00
 19453357,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T06:23:21.018898+00:00
 19509772,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-25T21:04:07.413968+00:00
 19514895,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T06:07:15.969814+00:00
-19515821,anthropic__claude-haiku-4-5,,,,2026-04-24T09:30:34.180284+00:00
+19515821,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:46:35.401244+00:00
 19524810,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-25T21:12:37.482721+00:00
 19531901,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-24T18:09:46.503175+00:00
 19576728,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T16:56:59.817716+00:00
-19583190,anthropic__claude-haiku-4-5,,,,2026-04-24T05:06:12.818613+00:00
+19583190,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-25T23:02:58.376417+00:00
 19622660,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-24T09:51:51.449265+00:00
 19629301,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",interactional,high,2026-04-24T05:04:36.972087+00:00
 19658401,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T17:45:46.074471+00:00
 19658517,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-24T04:34:49.260838+00:00
 19662521,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-24T17:10:07.820529+00:00
-19669802,anthropic__claude-haiku-4-5,,,,2026-04-24T04:20:38.824608+00:00
+19669802,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,medium,2026-04-25T23:01:58.098612+00:00
 19671825,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T05:46:58.245076+00:00
 19681266,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T08:35:14.740586+00:00
-19685434,anthropic__claude-haiku-4-5,,,,2026-04-24T06:39:26.095233+00:00
-19785208,anthropic__claude-haiku-4-5,,,,2026-04-24T06:56:43.711082+00:00
+19685434,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:10:09.799828+00:00
+19785208,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-26T00:59:04.998755+00:00
 19786881,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T21:43:25.891577+00:00
 19883325,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-24T03:52:17.939812+00:00
 19971371,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T08:17:42.943235+00:00
-19985735,anthropic__claude-haiku-4-5,,,,2026-04-24T04:22:03.341610+00:00
+19985735,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-26T01:22:17.374969+00:00
 20010699,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T17:08:07.660484+00:00
 20019845,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-24T07:44:19.691286+00:00
 20044160,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-24T03:53:42.669148+00:00
@@ -990,238 +990,12 @@ complaint_id,labeler_name,unfairness_type,justice_violation,severity,created_at
 20130708,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-24T09:33:34.195536+00:00
 20144174,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T18:06:46.301465+00:00
 20179369,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T16:42:15.050698+00:00
-20236041,anthropic__claude-haiku-4-5,,,,2026-04-24T04:17:15.469866+00:00
+20236041,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,low,2026-04-26T00:07:01.272409+00:00
 20278285,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T21:06:07.380160+00:00
 20301694,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T09:35:58.891511+00:00
 20344686,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-24T04:06:53.161331+00:00
 20489775,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-24T04:17:27.343180+00:00
-20501688,anthropic__claude-haiku-4-5,,,,2026-04-24T04:26:51.809738+00:00
-20567181,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T17:18:24.031045+00:00
-20606775,anthropic__claude-haiku-4-5,,,,2026-04-24T04:24:02.602930+00:00
-20763158,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T03:43:07.268875+00:00
-15502763,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-25T22:42:19.767114+00:00
-18239063,anthropic__claude-haiku-4-5,"[""none_other""]",interactional,medium,2026-04-25T22:42:34.888508+00:00
-11401851,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T22:42:49.625147+00:00
-18915312,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-25T22:43:04.582715+00:00
-17068205,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-25T22:43:19.439219+00:00
-15447856,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:43:34.642170+00:00
-12366382,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:43:49.511594+00:00
-12265086,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T22:44:06.432101+00:00
-18638176,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:44:19.428728+00:00
-16564466,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:44:35.525764+00:00
-15100917,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:44:49.747320+00:00
-17067490,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T22:45:04.473024+00:00
-16738033,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:45:19.651305+00:00
-19449595,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:45:34.498777+00:00
-13558826,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T22:45:49.816819+00:00
-19223224,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:46:04.404614+00:00
-17110998,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:46:19.504641+00:00
-12948813,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-25T22:46:34.720736+00:00
-18688615,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:46:49.786171+00:00
-12019692,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-25T22:47:05.019515+00:00
-18957594,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:47:19.481142+00:00
-15670607,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-25T22:47:49.871881+00:00
-13761075,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-25T22:48:04.830600+00:00
-15498890,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-25T22:48:19.769320+00:00
-12021298,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:48:34.617963+00:00
-18871431,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:48:49.690792+00:00
-18906446,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T22:49:04.522511+00:00
-14540832,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T22:49:19.568342+00:00
-13129271,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:49:35.052952+00:00
-15529230,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T22:49:49.613871+00:00
-18296655,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:50:06.687903+00:00
-11822134,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:50:19.789662+00:00
-15989936,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:50:34.768689+00:00
-11596070,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:50:49.987037+00:00
-17083708,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:51:04.638916+00:00
-14869736,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:51:34.625881+00:00
-11428519,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T22:51:49.718301+00:00
-15651907,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T22:52:04.448515+00:00
-17877895,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T22:52:19.592994+00:00
-12654170,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:52:34.499680+00:00
-11718118,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:53:04.663822+00:00
-12772643,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unethical_collections""]",procedural,high,2026-04-25T22:54:12.157088+00:00
-16992400,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T22:54:27.432191+00:00
-13619485,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:54:41.836228+00:00
-11455052,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:55:24.442324+00:00
-13587481,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T22:55:38.905696+00:00
-15265882,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-25T22:56:09.835707+00:00
-14734012,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T22:56:24.593857+00:00
-13792978,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-25T22:56:39.532460+00:00
-13268835,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T23:01:28.058985+00:00
-16331093,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:01:43.231444+00:00
-19669802,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,medium,2026-04-25T23:01:58.098612+00:00
-12892025,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:02:12.936030+00:00
-12499018,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:02:28.206954+00:00
-12323815,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:02:43.260137+00:00
-19583190,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-25T23:02:58.376417+00:00
-17186513,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:03:13.158238+00:00
-14704315,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:03:28.111441+00:00
-14516305,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-25T23:03:43.064247+00:00
-16349897,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:03:58.078826+00:00
-13735994,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:04:13.166219+00:00
-12000232,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-25T23:06:40.986638+00:00
-14679594,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:06:55.785248+00:00
-18341312,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T23:07:10.831548+00:00
-18972124,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:07:25.680585+00:00
-12986830,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:08:18.415111+00:00
-18619479,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T23:08:33.363308+00:00
-19010790,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-25T23:08:48.420688+00:00
-15236842,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:09:04.494082+00:00
-16717684,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:09:19.754154+00:00
-17887209,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-25T23:09:34.396289+00:00
-18109805,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T23:09:49.751234+00:00
-11414280,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,medium,2026-04-25T23:10:04.502449+00:00
-11384698,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:10:20.125398+00:00
-14926968,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:10:34.726293+00:00
-16894068,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",procedural,high,2026-04-25T23:11:19.557330+00:00
-17106228,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,medium,2026-04-25T23:11:35.118074+00:00
-18546369,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:11:49.875163+00:00
-13600276,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-25T23:12:04.572134+00:00
-20606775,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:12:19.963974+00:00
-12003464,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:19:17.746969+00:00
-12658774,anthropic__claude-haiku-4-5,"[""delay"", ""excessive_charge""]",procedural,high,2026-04-25T23:19:33.094250+00:00
-17952468,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:19:47.615418+00:00
-14718632,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:22:52.304814+00:00
-16665822,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-25T23:23:07.329838+00:00
-12765836,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:23:22.042551+00:00
-16279861,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:29:05.334052+00:00
-13817860,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,high,2026-04-25T23:29:20.270222+00:00
-17364271,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:29:35.259624+00:00
-18669656,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-25T23:29:59.000388+00:00
-17220908,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-25T23:30:14.305942+00:00
-16426331,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:30:29.009384+00:00
-14202411,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-25T23:42:36.448175+00:00
-12103287,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-25T23:42:51.306434+00:00
-13285907,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-25T23:43:06.385107+00:00
-12654706,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,high,2026-04-25T23:43:21.285086+00:00
-12402909,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-25T23:43:35.899487+00:00
-12100609,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:50:33.570544+00:00
-11848481,anthropic__claude-haiku-4-5,,,,2026-04-25T23:59:31.975938+00:00
-15095649,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-25T23:59:46.886358+00:00
-12019568,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-26T00:00:01.928718+00:00
-16924304,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:00:31.920275+00:00
-11976040,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:00:50.872369+00:00
-12951295,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-26T00:01:05.796321+00:00
-12861607,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections"", ""delay""]",procedural,high,2026-04-26T00:01:20.946329+00:00
-12820055,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:05:59.908477+00:00
-17353738,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T00:06:15.569829+00:00
-15752922,anthropic__claude-haiku-4-5,"[""delay""]",procedural,low,2026-04-26T00:06:30.145645+00:00
-14186904,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T00:06:45.157081+00:00
-20236041,anthropic__claude-haiku-4-5,"[""none_other""]",distributive,low,2026-04-26T00:07:01.272409+00:00
-12887026,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-26T00:07:16.009529+00:00
-18636028,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:11:30.079957+00:00
-11966657,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,medium,2026-04-26T00:11:43.697196+00:00
-12623596,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-26T00:11:58.692682+00:00
-13015850,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:12:13.700790+00:00
-19211484,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-26T00:12:28.807264+00:00
-17925796,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",procedural,high,2026-04-26T00:12:43.705625+00:00
-13245986,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T00:12:58.441102+00:00
-17387675,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",procedural,medium,2026-04-26T00:13:13.711296+00:00
-12138007,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:13:28.457299+00:00
-12222853,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T00:13:43.814860+00:00
-17154509,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-26T00:13:59.382135+00:00
-17996359,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:14:14.263243+00:00
-12463292,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,medium,2026-04-26T00:14:29.056783+00:00
-14931133,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,low,2026-04-26T00:20:56.653268+00:00
-13668747,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:21:00.099239+00:00
-15639871,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",distributive,medium,2026-04-26T00:21:12.592216+00:00
-12768623,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:21:26.608875+00:00
-12559400,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:33:11.870991+00:00
 20501688,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:33:26.590760+00:00
-13051130,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:37:36.687589+00:00
-17761019,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:37:51.877883+00:00
-12508961,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:38:06.608309+00:00
-18031673,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge""]",procedural,high,2026-04-26T00:40:39.495715+00:00
-13220607,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:40:54.470847+00:00
-11924703,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:41:10.717385+00:00
-15773819,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T00:43:46.434004+00:00
-12329307,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:44:01.579673+00:00
-12138388,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",interactional,high,2026-04-26T00:44:59.870979+00:00
-17759911,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:45:14.544532+00:00
-12350348,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:46:19.772003+00:00
-19515821,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:46:35.401244+00:00
-14446093,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:46:49.727808+00:00
-16143488,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:48:55.609864+00:00
-12569382,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""excessive_charge"", ""delay""]",distributive,high,2026-04-26T00:49:11.078449+00:00
-16989402,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:49:25.611791+00:00
-11653905,anthropic__claude-haiku-4-5,"[""delay""]",distributive,high,2026-04-26T00:52:30.744385+00:00
-13846800,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:52:45.699233+00:00
-16754593,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:53:00.681011+00:00
-11742235,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:53:15.614464+00:00
-16733981,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:53:36.186546+00:00
-14216211,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T00:53:49.501510+00:00
-17847682,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:54:04.854055+00:00
-13418972,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:54:32.346214+00:00
-17467230,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:54:47.536303+00:00
-13074073,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:55:02.204211+00:00
-11976464,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay"", ""none_other""]",procedural,high,2026-04-26T00:55:28.392339+00:00
-17142175,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,low,2026-04-26T00:55:42.516153+00:00
-15556783,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:55:57.601979+00:00
-16139547,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:56:40.408106+00:00
-14547020,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:56:53.513604+00:00
-13385771,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:56:55.354120+00:00
-11437903,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:57:10.614357+00:00
-17600342,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:57:27.979741+00:00
-14356846,anthropic__claude-haiku-4-5,"[""none_other""]",procedural,high,2026-04-26T00:57:43.381143+00:00
-18419839,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T00:57:58.026633+00:00
-15893192,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T00:58:13.076229+00:00
-14136966,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T00:58:49.633185+00:00
-19785208,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-26T00:59:04.998755+00:00
-18343958,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T00:59:19.743697+00:00
-17401735,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T00:59:34.970847+00:00
-13444129,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T00:59:50.031830+00:00
-16586237,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:00:06.441309+00:00
-13201708,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T01:01:24.773402+00:00
-12367375,anthropic__claude-haiku-4-5,"[""delay"", ""none_other""]",procedural,high,2026-04-26T01:01:39.822227+00:00
-17360629,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""delay""]",distributive,high,2026-04-26T01:01:54.881183+00:00
-16768086,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:02:26.607812+00:00
-14374704,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:02:41.472829+00:00
-18574596,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:02:56.422775+00:00
-12535022,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:04:11.277064+00:00
-17757666,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:04:26.334503+00:00
-15237861,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:04:41.094366+00:00
-16839503,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,medium,2026-04-26T01:09:55.243448+00:00
-19685434,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:10:09.799828+00:00
-13222069,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,medium,2026-04-26T01:12:20.352424+00:00
-17879305,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:12:35.816971+00:00
-11389795,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:12:50.663685+00:00
-11871327,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T01:15:10.987433+00:00
-17848373,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:15:14.559771+00:00
-16057167,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:15:26.109783+00:00
-15208080,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:15:40.959760+00:00
-19985735,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",interactional,medium,2026-04-26T01:22:17.374969+00:00
-11727292,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:22:32.400222+00:00
-18996236,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:22:47.551812+00:00
-19343407,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:23:44.386528+00:00
-17260689,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:24:00.051457+00:00
-14738227,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",distributive,high,2026-04-26T01:24:14.387459+00:00
-14817561,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:24:29.595268+00:00
-11333660,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:24:44.681787+00:00
-16813691,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:24:59.546987+00:00
-13158332,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:25:14.292349+00:00
-12501015,anthropic__claude-haiku-4-5,"[""unaware_of_charge""]",procedural,high,2026-04-26T01:25:29.447005+00:00
-11911670,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:25:44.398489+00:00
-17360538,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:25:59.554508+00:00
-12832561,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:26:14.605649+00:00
-18384440,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:26:29.456224+00:00
-17901041,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:26:44.405527+00:00
-15804293,anthropic__claude-haiku-4-5,"[""delay"", ""unethical_collections""]",procedural,high,2026-04-26T01:26:59.662685+00:00
-12501071,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-26T01:27:39.994001+00:00
-19107799,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""delay""]",procedural,high,2026-04-26T01:27:55.365822+00:00
-12332364,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:28:10.116242+00:00
-13089058,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:28:39.919443+00:00
-14620078,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:28:55.271864+00:00
-14453927,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:29:10.118776+00:00
-12670079,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:29:40.047364+00:00
-12651990,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-26T01:29:52.913675+00:00
-15233480,anthropic__claude-haiku-4-5,"[""excessive_charge"", ""unaware_of_charge""]",distributive,medium,2026-04-26T01:30:07.989648+00:00
-13582981,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,medium,2026-04-26T01:30:22.935215+00:00
-16756604,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:34:42.910181+00:00
-13110967,anthropic__claude-haiku-4-5,"[""excessive_charge""]",distributive,high,2026-04-26T01:34:58.113394+00:00
-16204820,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-26T01:35:13.031670+00:00
-16715951,anthropic__claude-haiku-4-5,"[""excessive_charge""]",procedural,medium,2026-04-26T01:35:28.185744+00:00
-14136663,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:35:43.137542+00:00
-15850126,anthropic__claude-haiku-4-5,"[""delay""]",procedural,medium,2026-04-26T01:35:57.982034+00:00
-15378744,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:36:12.789373+00:00
-13763469,anthropic__claude-haiku-4-5,"[""delay""]",procedural,high,2026-04-26T01:36:27.778816+00:00
+20567181,anthropic__claude-haiku-4-5,"[""unaware_of_charge"", ""unethical_collections""]",procedural,high,2026-04-24T17:18:24.031045+00:00
+20606775,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-25T23:12:19.963974+00:00
+20763158,anthropic__claude-haiku-4-5,"[""delay"", ""unaware_of_charge""]",procedural,high,2026-04-24T03:43:07.268875+00:00
