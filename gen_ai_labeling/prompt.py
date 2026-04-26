@@ -56,8 +56,9 @@ Rules:
 - Use only the value strings shown above (e.g. "unaware_of_charge", not "Unaware of charge").
 - unfairness_type is an array with at least one value.
 - If nothing else fits, use ["none_other"] for unfairness_type.
+- The three fields are DISJOINT. Never put a justice_violation value ("distributive", "procedural", "interactional") into unfairness_type, and never put an unfairness_type value into justice_violation. Each value belongs to exactly one field.
 - Base your judgment on the complaint text alone; do not invent facts.
-- Output ONLY a single JSON object — no prose, no markdown fences."""
+- Output ONLY a single JSON object — no prose, no markdown fences, no XML tags."""
 
 
 def build_user_prompt(issue: str, sub_issue: str, narrative: str) -> str:
