@@ -8,12 +8,13 @@ new single-select complaint_category schema:
 Precedence: Cat 3 > Cat 1 > Cat 2.
 
 Per-token rules:
-  unaware_of_charge, excessive_charge   → Cat 1 candidate
-  delay, none_other                     → Cat 2 candidate
-  unethical_collections                 → Cat 3 candidate, UNLESS justice ==
-                                          "procedural" (then Cat 2 — customer
-                                          read the issue as incompetence, not
-                                          purposeful mistreatment)
+  unethical_collections                 → Cat 3
+  unaware_of_charge, excessive_charge   → Cat 1
+  delay, none_other                     → Cat 2 (fallback)
+
+The justice_violation field is unused — empirically it skews "procedural"
+across all three true categories (~80% even on human-Cat3 rows), so it
+has no discriminative power. See tune_remap.py for the rule comparison.
 
 Reads each gen_ai_labeling/outputs/*/labels.csv and writes a sibling
 labels_remapped.csv with columns:
@@ -42,13 +43,11 @@ DECEPTIVE_TOKEN = "unethical_collections"
 NEW_FIELDS = ["complaint_id", "labeler_name", "complaint_category", "created_at"]
 
 
-def remap(unfairness: list[str], justice: str | None) -> str:
+def remap(unfairness: list[str], justice: str | None = None) -> str:
     tokens = set(unfairness or [])
-    has_deceptive = DECEPTIVE_TOKEN in tokens and justice != "procedural"
-    has_charge = bool(tokens & CHARGE_TOKENS)
-    if has_deceptive:
+    if DECEPTIVE_TOKEN in tokens:
         return CAT_DECEPTIVE
-    if has_charge:
+    if tokens & CHARGE_TOKENS:
         return CAT_CHARGES
     return CAT_PROCESS
 
