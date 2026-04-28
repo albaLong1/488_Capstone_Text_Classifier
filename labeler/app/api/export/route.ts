@@ -3,21 +3,13 @@ import { supabase } from '@/lib/supabase';
 
 export const dynamic = 'force-dynamic';
 
+const EXPORT_FILENAME = 'human_category_labels.csv';
+
 type LabelRow = {
   complaint_id: number;
   labeler_name: string;
-  unfairness_type: string[];
-  justice_violation: string;
-  severity: string;
+  complaint_category: string[] | string;
   created_at: string;
-};
-
-type ComplaintRow = {
-  id: number;
-  date_received: string | null;
-  issue: string | null;
-  sub_issue: string | null;
-  complaint_what_happened: string | null;
 };
 
 function csvEscape(v: unknown): string {
@@ -29,6 +21,32 @@ function csvEscape(v: unknown): string {
   return s;
 }
 
+function categoryTags(c: string[] | string | null | undefined): string[] {
+  if (Array.isArray(c)) return c.filter((x): x is string => typeof x === 'string');
+  if (typeof c === 'string' && c) return [c];
+  return [];
+}
+
+function categoryCell(c: string[] | string | null | undefined): string {
+  return categoryTags(c)
+    .slice()
+    .sort()
+    .join(';');
+}
+
+/** Slugs that at least two of three raters included in their pick. */
+function multiConsensus(perRater: string[][]): string {
+  const counts = new Map<string, number>();
+  for (const tags of perRater) {
+    for (const t of new Set(tags)) {
+      counts.set(t, (counts.get(t) ?? 0) + 1);
+    }
+  }
+  const agreed: string[] = [];
+  for (const [t, n] of counts) if (n >= 2) agreed.push(t);
+  return agreed.sort().join(';');
+}
+
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const password = url.searchParams.get('password') ?? '';
@@ -38,13 +56,10 @@ export async function GET(req: Request) {
   }
 
   const [{ data: complaints, error: cErr }, { data: labels, error: lErr }] = await Promise.all([
-    supabase
-      .from('complaints')
-      .select('id, date_received, issue, sub_issue, complaint_what_happened')
-      .order('id'),
+    supabase.from('complaints').select('id').order('id'),
     supabase
       .from('labels')
-      .select('complaint_id, labeler_name, unfairness_type, justice_violation, severity, created_at')
+      .select('complaint_id, labeler_name, complaint_category, created_at')
       .order('created_at', { ascending: true }),
   ]);
 
@@ -63,93 +78,37 @@ export async function GET(req: Request) {
 
   const headers = [
     'complaint_id',
-    'date_received',
-    'issue',
-    'sub_issue',
-    'complaint_what_happened',
-    'labeler_1_name',
-    'labeler_1_unfairness',
-    'labeler_1_justice',
-    'labeler_1_severity',
-    'labeler_2_name',
-    'labeler_2_unfairness',
-    'labeler_2_justice',
-    'labeler_2_severity',
-    'labeler_3_name',
-    'labeler_3_unfairness',
-    'labeler_3_justice',
-    'labeler_3_severity',
-    'unfairness_consensus',
-    'justice_consensus',
-    'severity_consensus',
-    'is_complete',
+    'rater_1_name',
+    'rater_1_category_slugs',
+    'rater_1_submitted_at',
+    'rater_2_name',
+    'rater_2_category_slugs',
+    'rater_2_submitted_at',
+    'rater_3_name',
+    'rater_3_category_slugs',
+    'rater_3_submitted_at',
+    'consensus_category_slugs',
+    'three_raters_complete',
   ];
 
-  const majority = (values: (string | undefined)[]): string => {
-    const counts = new Map<string, number>();
-    for (const v of values) {
-      if (!v) continue;
-      counts.set(v, (counts.get(v) ?? 0) + 1);
-    }
-    let best = '';
-    let bestCount = 0;
-    let tied = false;
-    for (const [v, c] of counts) {
-      if (c > bestCount) {
-        best = v;
-        bestCount = c;
-        tied = false;
-      } else if (c === bestCount) {
-        tied = true;
-      }
-    }
-    if (!best) return '';
-    return tied ? 'tie' : best;
-  };
-
-  // For multi-label unfairness: a tag is in the "consensus" if >=2 of 3
-  // labelers picked it. Returns tags semicolon-joined (stable order).
-  const multiConsensus = (perLabeler: string[][]): string => {
-    const counts = new Map<string, number>();
-    for (const tags of perLabeler) {
-      for (const t of new Set(tags)) {
-        counts.set(t, (counts.get(t) ?? 0) + 1);
-      }
-    }
-    const agreed: string[] = [];
-    for (const [t, c] of counts) if (c >= 2) agreed.push(t);
-    return agreed.sort().join(';');
-  };
-
   const lines: string[] = [headers.join(',')];
-  for (const c of (complaints ?? []) as ComplaintRow[]) {
-    const ls = (byId.get(c.id) ?? []).slice(0, 3);
+  for (const c of complaints ?? []) {
+    const id = Number((c as { id: number }).id);
+    const ls = (byId.get(id) ?? []).slice(0, 3);
     const complete = ls.length >= 3;
-    const row: unknown[] = [
-      c.id,
-      c.date_received,
-      c.issue,
-      c.sub_issue,
-      c.complaint_what_happened,
-    ];
+    const row: unknown[] = [id];
     for (let i = 0; i < 3; i++) {
       const l = ls[i];
-      const tags = Array.isArray(l?.unfairness_type) ? l!.unfairness_type : [];
       row.push(
         l?.labeler_name ?? '',
-        tags.slice().sort().join(';'),
-        l?.justice_violation ?? '',
-        l?.severity ?? '',
+        categoryCell(l?.complaint_category),
+        l?.created_at ?? '',
       );
     }
     if (complete) {
-      row.push(
-        multiConsensus(ls.map((l) => (Array.isArray(l.unfairness_type) ? l.unfairness_type : []))),
-        majority(ls.map((l) => l.justice_violation)),
-        majority(ls.map((l) => l.severity)),
-      );
+      row.push(multiConsensus(ls.map((l) => categoryTags(l.complaint_category))));
     } else {
-      row.push('', '', '');
+      row.push('');
     }
     row.push(complete ? 'true' : 'false');
     lines.push(row.map(csvEscape).join(','));
@@ -158,7 +117,7 @@ export async function GET(req: Request) {
   return new NextResponse(lines.join('\n'), {
     headers: {
       'content-type': 'text/csv; charset=utf-8',
-      'content-disposition': 'attachment; filename="labeled_mortgage_holdout.csv"',
+      'content-disposition': `attachment; filename="${EXPORT_FILENAME}"`,
     },
   });
 }

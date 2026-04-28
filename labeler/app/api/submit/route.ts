@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabase';
-import { VALID_JUSTICE, VALID_SEVERITY, VALID_UNFAIRNESS } from '@/lib/options';
+import { normalizeComplaintCategories } from '@/lib/options';
 
 export const dynamic = 'force-dynamic';
 
@@ -10,22 +10,9 @@ export async function POST(req: Request) {
 
   const complaint_id = Number(body.complaint_id);
   const labeler_name = typeof body.labeler_name === 'string' ? body.labeler_name.trim() : '';
-  const unfairnessRaw = body.unfairness_type;
-  const justice_violation = body.justice_violation;
-  const severity = body.severity;
+  const complaint_category = normalizeComplaintCategories(body.complaint_category);
 
-  const unfairness_type = Array.isArray(unfairnessRaw)
-    ? Array.from(new Set(unfairnessRaw.filter((v) => typeof v === 'string')))
-    : [];
-
-  if (
-    !Number.isFinite(complaint_id) ||
-    !labeler_name ||
-    unfairness_type.length === 0 ||
-    unfairness_type.some((v) => !VALID_UNFAIRNESS.has(v)) ||
-    !VALID_JUSTICE.has(justice_violation) ||
-    !VALID_SEVERITY.has(severity)
-  ) {
+  if (!Number.isFinite(complaint_id) || !labeler_name || !complaint_category) {
     return NextResponse.json({ error: 'missing or invalid fields' }, { status: 400 });
   }
 
@@ -41,9 +28,7 @@ export async function POST(req: Request) {
   const { error } = await supabase.from('labels').insert({
     complaint_id,
     labeler_name,
-    unfairness_type,
-    justice_violation,
-    severity,
+    complaint_category,
   });
 
   if (error) {

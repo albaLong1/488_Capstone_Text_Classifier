@@ -2,7 +2,10 @@
 
 import { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
-import { JUSTICE_OPTIONS, SEVERITY_OPTIONS, UNFAIRNESS_OPTIONS } from '@/lib/options';
+import {
+  COMPLAINT_CATEGORY_OPTIONS,
+  MAX_COMPLAINT_CATEGORY_PICKS,
+} from '@/lib/options';
 
 type Complaint = {
   id: number;
@@ -30,15 +33,7 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [skipped, setSkipped] = useState<number[]>([]);
 
-  const [unfairness, setUnfairness] = useState<string[]>([]);
-  const [justice, setJustice] = useState('');
-  const [severity, setSeverity] = useState('');
-
-  function toggleUnfairness(value: string) {
-    setUnfairness((prev) =>
-      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value],
-    );
-  }
+  const [categories, setCategories] = useState<string[]>([]);
 
   useEffect(() => {
     const saved = localStorage.getItem('labeler_name');
@@ -48,9 +43,7 @@ export default function Home() {
   const fetchNext = useCallback(async (activeName: string, skipList: number[]) => {
     setLoading(true);
     setError(null);
-    setUnfairness([]);
-    setJustice('');
-    setSeverity('');
+    setCategories([]);
     try {
       const nextUrl = new URL('/api/next', window.location.origin);
       nextUrl.searchParams.set('name', activeName);
@@ -59,15 +52,22 @@ export default function Home() {
         fetch(nextUrl.toString(), { cache: 'no-store' }),
         fetch('/api/progress', { cache: 'no-store' }),
       ]);
-      if (!nextRes.ok) throw new Error(`next failed (${nextRes.status})`);
-      if (!progRes.ok) throw new Error(`progress failed (${progRes.status})`);
+      if (!nextRes.ok) {
+        const errBody = await nextRes.json().catch(() => ({} as { error?: string; hint?: string }));
+        const msg = [errBody.error, errBody.hint].filter(Boolean).join(' — ');
+        throw new Error(msg || `next failed (${nextRes.status})`);
+      }
+      if (!progRes.ok) {
+        const errBody = await progRes.json().catch(() => ({} as { error?: string }));
+        throw new Error(errBody.error || `progress failed (${progRes.status})`);
+      }
       const nextData = await nextRes.json();
       const progData: Progress = await progRes.json();
       setProgress(progData);
       if (nextData.complaint) {
         setComplaint({
-        ...nextData.complaint,
-        complaint_what_happened: highlightText(nextData.complaint!.complaint_what_happened)
+          ...nextData.complaint,
+          complaint_what_happened: highlightText(nextData.complaint!.complaint_what_happened),
         });
         setDone(false);
       } else {
@@ -85,8 +85,16 @@ export default function Home() {
     if (name) void fetchNext(name, []);
   }, [name, fetchNext]);
 
+  function toggleCategory(value: string) {
+    setCategories((prev) => {
+      if (prev.includes(value)) return prev.filter((v) => v !== value);
+      if (prev.length >= MAX_COMPLAINT_CATEGORY_PICKS) return prev;
+      return [...prev, value];
+    });
+  }
+
   async function submit() {
-    if (!complaint || !name || unfairness.length === 0 || !justice || !severity) return;
+    if (!complaint || !name || categories.length === 0) return;
     setLoading(true);
     setError(null);
     try {
@@ -96,9 +104,7 @@ export default function Home() {
         body: JSON.stringify({
           complaint_id: complaint.id,
           labeler_name: name,
-          unfairness_type: unfairness,
-          justice_violation: justice,
-          severity,
+          complaint_category: categories,
         }),
       });
       if (!res.ok && res.status !== 409) {
@@ -136,32 +142,43 @@ export default function Home() {
   }
 
   function highlightText(str: string | string[] | null | undefined): React.ReactNode {
-  const keywords = ['Deceit', 'Fraud', 'Legal', 'Serious'];
+    const keywords = ['Deceit', 'Fraud', 'Legal', 'Serious'];
 
-  if (!str || str === 'No narrative') return 'No narrative';
+    if (!str || str === 'No narrative') return 'No narrative';
 
-  const text = Array.isArray(str) ? str.join(' ') : String(str);
+    const text = Array.isArray(str) ? str.join(' ') : String(str);
 
-  const escaped = keywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-  const dollarPattern = `\\$\\d+(?:\\.\\d+)?`;
-  const keywordRegex = new RegExp(`(${escaped.join('|')})`, 'gi');
-  const dollarRegex = new RegExp(`(${dollarPattern})`);
-  const combinedRegex = new RegExp(`(${[dollarPattern, ...escaped].join('|')})`, 'gi');
+    const escaped = keywords.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const dollarPattern = `\\$\\d+(?:\\.\\d+)?`;
+    const keywordRegex = new RegExp(`(${escaped.join('|')})`, 'gi');
+    const dollarRegex = new RegExp(`(${dollarPattern})`);
+    const combinedRegex = new RegExp(`(${[dollarPattern, ...escaped].join('|')})`, 'gi');
 
-  return text.split(combinedRegex).map((part, i) => {
-    if (dollarRegex.test(part))
-      return <span key={i} style={{ backgroundColor: 'yellow', fontWeight: 'bold' }}>{part}</span>;
-    if (keywordRegex.test(part))
-      return <span key={i} style={{ backgroundColor: 'red', fontWeight: 'bold', color: 'white' }}>{part}</span>;
-    return part;
-  });
-}
+    return text.split(combinedRegex).map((part, i) => {
+      if (dollarRegex.test(part))
+        return (
+          <span key={i} style={{ backgroundColor: 'yellow', fontWeight: 'bold' }}>
+            {part}
+          </span>
+        );
+      if (keywordRegex.test(part))
+        return (
+          <span key={i} style={{ backgroundColor: 'red', fontWeight: 'bold', color: 'white' }}>
+            {part}
+          </span>
+        );
+      return part;
+    });
+  }
 
   if (!name) {
     return (
       <div className="container">
         <h1>Mortgage Complaint Labeler</h1>
-        <p>Enter your first name to start. Each complaint needs 3 different labelers, and everyone tags 3 dimensions per complaint.</p>
+        <p>
+          Enter your first name to start. Each complaint needs 3 different labelers; each person
+          picks 1–2 category slugs below.
+        </p>
         <input
           type="text"
           value={nameInput}
@@ -172,7 +189,9 @@ export default function Home() {
           placeholder="Your name"
           autoFocus
         />
-        <button onClick={signIn} disabled={!nameInput.trim()}>Start</button>
+        <button onClick={signIn} disabled={!nameInput.trim()}>
+          Start
+        </button>
       </div>
     );
   }
@@ -180,13 +199,28 @@ export default function Home() {
   return (
     <div className="container">
       <header className="topbar">
-        <span>Labeler <strong>{name}</strong></span>
-        <span>Fully labeled <strong>{progress?.completeComplaints ?? '…'} / {progress?.totalComplaints ?? '…'}</strong></span>
-        <span>Your labels <strong>{progress?.perLabeler?.[name] ?? 0}</strong></span>
+        <span>
+          Labeler <strong>{name}</strong>
+        </span>
+        <span>
+          Fully labeled{' '}
+          <strong>
+            {progress?.completeComplaints ?? '…'} / {progress?.totalComplaints ?? '…'}
+          </strong>
+        </span>
+        <span>
+          Your labels <strong>{progress?.perLabeler?.[name] ?? 0}</strong>
+        </span>
         <span className="spacer" />
-        <Link href="/history" className="link" style={{ color: '#0645ad', textDecoration: 'underline' }}>My labels</Link>
-        <Link href="/game" className="link" style={{ color: '#0645ad', textDecoration: 'underline' }}>🎮 Break</Link>
-        <button onClick={signOut} className="link">Sign out</button>
+        <Link href="/history" className="link" style={{ color: '#0645ad', textDecoration: 'underline' }}>
+          My labels
+        </Link>
+        <Link href="/game" className="link" style={{ color: '#0645ad', textDecoration: 'underline' }}>
+          🎮 Break
+        </Link>
+        <button onClick={signOut} className="link">
+          Sign out
+        </button>
       </header>
 
       {error && <div className="error">{error}</div>}
@@ -203,76 +237,51 @@ export default function Home() {
           <div className="complaint">
             <div className="meta">
               <strong>ID:</strong> {complaint.id}
-              {complaint.issue ? <> · <strong>Issue:</strong> {complaint.issue}</> : null}
-              {complaint.sub_issue ? <> · <strong>Sub-issue:</strong> {complaint.sub_issue}</> : null}
-              {' '}· <strong>Labels so far:</strong> {complaint.label_count}/3
+              {complaint.issue ? (
+                <>
+                  {' '}
+                  · <strong>Issue:</strong> {complaint.issue}
+                </>
+              ) : null}
+              {complaint.sub_issue ? (
+                <>
+                  {' '}
+                  · <strong>Sub-issue:</strong> {complaint.sub_issue}
+                </>
+              ) : null}{' '}
+              · <strong>Labels so far:</strong> {complaint.label_count}/3
             </div>
             <div className="text">{complaint.complaint_what_happened || 'No narrative'}</div>
           </div>
 
+          <p className="hint" style={{ marginBottom: 12, maxWidth: 720 }}>
+            Choose <strong>1</strong> preferably; choose <strong>2</strong> if unsure. At most{' '}
+            {MAX_COMPLAINT_CATEGORY_PICKS} selections.
+          </p>
+
           <fieldset disabled={loading}>
-            <legend>Unfairness type (pick one or more)</legend>
-            {UNFAIRNESS_OPTIONS.map((o) => (
-              <label key={o.value}>
+            <legend>Categories</legend>
+            {COMPLAINT_CATEGORY_OPTIONS.map((o) => (
+              <label key={o.value} style={{ display: 'block', marginBottom: 10 }}>
                 <input
                   type="checkbox"
-                  name="unfairness"
+                  name="complaint_category"
                   value={o.value}
-                  checked={unfairness.includes(o.value)}
-                  onChange={() => toggleUnfairness(o.value)}
+                  checked={categories.includes(o.value)}
+                  disabled={categories.length >= MAX_COMPLAINT_CATEGORY_PICKS && !categories.includes(o.value)}
+                  onChange={() => toggleCategory(o.value)}
                 />
-                <strong>{o.label}</strong>
-                {o.hint && <span className="hint"> — {o.hint}</span>}
-              </label>
-            ))}
-          </fieldset>
-
-          <fieldset disabled={loading}>
-            <legend>Justice violation</legend>
-            {JUSTICE_OPTIONS.map((o) => (
-              <label key={o.value}>
-                <input
-                  type="radio"
-                  name="justice"
-                  value={o.value}
-                  checked={justice === o.value}
-                  onChange={() => setJustice(o.value)}
-                />
-                <strong>{o.label}</strong>
-                {o.hint && <span className="hint"> — {o.hint}</span>}
-              </label>
-            ))}
-          </fieldset>
-
-          <fieldset disabled={loading}>
-            <legend>Severity</legend>
-            {SEVERITY_OPTIONS.map((o) => (
-              <label key={o.value}>
-                <input
-                  type="radio"
-                  name="severity"
-                  value={o.value}
-                  checked={severity === o.value}
-                  onChange={() => setSeverity(o.value)}
-                />
-                <strong>{o.label}</strong>
-                {o.hint && <span className="hint"> — {o.hint}</span>}
+                <code style={{ marginRight: 8 }}>{o.value}</code>
+                <span>{o.meaning}</span>
               </label>
             ))}
           </fieldset>
 
           <div className="actions">
-            <button
-              onClick={submit}
-              disabled={loading || unfairness.length === 0 || !justice || !severity}
-            >
+            <button onClick={submit} disabled={loading || categories.length === 0}>
               Submit & next
             </button>
-            <button
-              onClick={skipCurrent}
-              disabled={loading}
-              className="secondary"
-            >
+            <button onClick={skipCurrent} disabled={loading} className="secondary">
               Skip
             </button>
           </div>

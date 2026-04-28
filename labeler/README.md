@@ -2,13 +2,39 @@
 
 A small Next.js + Supabase web app for your 6-person team to manually classify the 1,000 mortgage complaints in `data/mortgage_holdout_1000.csv`.
 
-Each complaint needs **3 different labelers**. Every labeler tags 3 dimensions:
+Each complaint needs **3 different labelers**. Each labeler picks **1 or 2** `complaint_category` slugs (same slug twice is deduped; max 2 distinct). UI copy: prefer 1, use 2 if unsure.
 
-1. **Unfairness type** — Unaware of charge / Excessive charge / Delay / Unethical Collections / None-Other
-2. **Justice violation** — Distributive / Procedural / Interactional
-3. **Severity** — Low / Medium / High
+| Slug | Meaning |
+|------|---------|
+| `improper_charges` | Category 1 — financial / dollar dispute |
+| `improper_process` | Category 2 — procedural / admin (incl. “none clearly fit”) |
+| `deceptive_discriminatory` | Category 3 — deception / discrimination |
 
-A complaint is marked complete once 3 distinct people have labeled it (9 labels total). The final CSV export gives you every labeler's tags side by side plus a majority-vote consensus column per dimension.
+A complaint is complete once 3 distinct people have labeled it. The CSV encodes each labeler’s picks as slugs **joined with `;`**. When all three are in, **`category_consensus`** lists any slug that **at least two** labelers included (same rule as the old multi-tag unfairness consensus).
+
+### Upgrading from single-slug `complaint_category` (text) to 1–2 slugs (text[])
+
+If your `labels` table still has `complaint_category` as a single `text` column, run **`schema_migrate_category_text_to_array.sql`** once in the SQL Editor (it truncates `labels`). New projects should use the current **`schema.sql`**.
+
+### Clearing labels or upgrading an old Supabase database
+
+- **Reset all submitted labels** (keep complaint rows so you do not need to re-seed):
+  1. **Supabase Dashboard → SQL Editor → New query**, run:
+     ```sql
+     truncate table labels restart identity;
+     ```
+     That removes every label and resets the `labels` id sequence.
+  2. **Or from your machine** (same `SUPABASE_*` vars as seeding — usually `labeler/.env.local`; if yours are only in the repo root `.env`, use the second command):
+     ```bash
+     cd labeler
+     npm run clear-labels
+     # or:
+     node --env-file=../.env scripts/clear-labels.mjs
+     ```
+     This deletes all rows in `labels` (complaints are unchanged).
+- **Old schema** (columns `unfairness_type`, `justice_violation`, `severity`): run  
+  `schema_migrate_to_complaint_category.sql` once. It truncates labels, drops the old columns, and adds `complaint_category`.
+- **Never run the migration** on a database that was already created from the current `schema.sql` (you would get a duplicate column error). For those DBs, use `truncate` only to wipe labels.
 
 ---
 
@@ -64,22 +90,26 @@ Visit `http://localhost:3000`, enter a name, and you should see your first compl
 - Friends visit the URL, type their name, start labeling. Their name is saved in `localStorage` so they don't re-enter it.
 - The **Skip** button fetches a different random complaint without saving anything.
 - You can see progress any time at `/admin` (enter your `ADMIN_PASSWORD` to download the CSV).
-- When everyone is done, hit `/admin`, download `labeled_mortgage_holdout.csv`, and you have your full labeled dataset.
+- When everyone is done, hit `/admin`, download **human_category_labels.csv** — label-only export (see below).
 
-## Export format
+## Export format (`human_category_labels.csv`)
 
-The CSV has one row per complaint with columns:
+Separate from the original holdout CSV: **no** `date_received`, **no** issue text, **no** narrative — only ids and what raters submitted.
+
+One row per complaint in the database, columns:
 
 ```
-complaint_id, date_received, issue, sub_issue, complaint_what_happened,
-labeler_1_name, labeler_1_unfairness, labeler_1_justice, labeler_1_severity,
-labeler_2_name, labeler_2_unfairness, labeler_2_justice, labeler_2_severity,
-labeler_3_name, labeler_3_unfairness, labeler_3_justice, labeler_3_severity,
-unfairness_consensus, justice_consensus, severity_consensus, is_complete
+complaint_id,
+rater_1_name, rater_1_category_slugs, rater_1_submitted_at,
+rater_2_name, rater_2_category_slugs, rater_2_submitted_at,
+rater_3_name, rater_3_category_slugs, rater_3_submitted_at,
+consensus_category_slugs, three_raters_complete
 ```
 
-- Columns for missing labelers are blank if a row isn't complete yet.
-- `*_consensus` is the majority vote across the three labelers, or `tie` if no single value wins. Only set when `is_complete = true`.
+- `rater_*_category_slugs`: one slug or two, sorted, separated by `;`.
+- `consensus_category_slugs`: slugs that **≥2** raters included; `;`-joined. Empty until `three_raters_complete` is `true`.
+- `rater_*_submitted_at`: ISO timestamp from the database (blank if that slot has no label yet).
+- Missing rater slots are blank; `three_raters_complete` is `true` only when three distinct raters have submitted.
 
 ## Rules enforced by the backend
 

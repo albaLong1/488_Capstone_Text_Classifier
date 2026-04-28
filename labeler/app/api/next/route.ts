@@ -23,7 +23,14 @@ export async function GET(req: Request) {
     p_skip: skipIds,
   });
   if (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json(
+      {
+        error: error.message,
+        hint:
+          'If this mentions the function or relation: open Supabase → SQL Editor and run the full labeler/schema.sql (creates get_next_complaint and tables).',
+      },
+      { status: 500 },
+    );
   }
 
   const row = Array.isArray(data) ? data[0] : null;
