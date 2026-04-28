@@ -142,26 +142,39 @@ export default function Home() {
   }
 
   function highlightText(str: string | string[] | null | undefined): React.ReactNode {
-    const keywords = ['Deceit', 'Fraud', 'Legal', 'Serious'];
+    const redKeywords = ['Deceit', 'Fraud', 'Legal', 'Serious'];
+    const blueKeywords = ['discrimination', 'lie', 'deception', 'deceptive'];
 
     if (!str || str === 'No narrative') return 'No narrative';
 
     const text = Array.isArray(str) ? str.join(' ') : String(str);
 
-    const escaped = keywords.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const redEscaped = redKeywords.map(escapeRe);
+    const blueEscaped = blueKeywords.map(escapeRe);
     const dollarPattern = `\\$\\d+(?:\\.\\d+)?`;
-    const keywordRegex = new RegExp(`(${escaped.join('|')})`, 'gi');
-    const dollarRegex = new RegExp(`(${dollarPattern})`);
-    const combinedRegex = new RegExp(`(${[dollarPattern, ...escaped].join('|')})`, 'gi');
+    const bluePattern = `\\b(?:${blueEscaped.join('|')})\\b`;
+
+    // Anchored tests so global-flag state can't leak between parts.
+    const dollarTest = new RegExp(`^${dollarPattern}$`);
+    const blueTest = new RegExp(`^(?:${blueEscaped.join('|')})$`, 'i');
+    const redTest = new RegExp(`^(?:${redEscaped.join('|')})$`, 'i');
+    const combinedRegex = new RegExp(`(${dollarPattern}|${bluePattern}|${redEscaped.join('|')})`, 'gi');
 
     return text.split(combinedRegex).map((part, i) => {
-      if (dollarRegex.test(part))
+      if (dollarTest.test(part))
         return (
           <span key={i} style={{ backgroundColor: 'yellow', fontWeight: 'bold' }}>
             {part}
           </span>
         );
-      if (keywordRegex.test(part))
+      if (blueTest.test(part))
+        return (
+          <span key={i} style={{ backgroundColor: 'lightblue', fontWeight: 'bold' }}>
+            {part}
+          </span>
+        );
+      if (redTest.test(part))
         return (
           <span key={i} style={{ backgroundColor: 'red', fontWeight: 'bold', color: 'white' }}>
             {part}
