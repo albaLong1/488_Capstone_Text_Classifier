@@ -271,8 +271,8 @@ export default function Home() {
                   disabled={categories.length >= MAX_COMPLAINT_CATEGORY_PICKS && !categories.includes(o.value)}
                   onChange={() => toggleCategory(o.value)}
                 />
-                <code style={{ marginRight: 8 }}>{o.value}</code>
-                <span>{o.meaning}</span>
+                <strong style={{ marginRight: 6 }}>{o.label}</strong>
+                <span className="hint">{o.meaning}</span>
               </label>
             ))}
           </fieldset>

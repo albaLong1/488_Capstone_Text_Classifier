@@ -1,9 +1,27 @@
 /** Stored in DB and CSV as `value` (slug). Each label is 1–2 slugs (deduped, sorted). */
 export const COMPLAINT_CATEGORY_OPTIONS = [
-  { value: 'improper_charges', meaning: 'Category 1 — financial / dollar dispute' },
-  { value: 'improper_process', meaning: 'Category 2 — procedural / admin (incl. “none clearly fit”)' },
-  { value: 'deceptive_discriminatory', meaning: 'Category 3 — deception / discrimination' },
+  {
+    value: 'improper_charges',
+    label: 'Improper charges',
+    meaning: 'Category 1 — financial / dollar dispute',
+  },
+  {
+    value: 'improper_process',
+    label: 'Improper process',
+    meaning: 'Category 2 — procedural / admin (incl. “none clearly fit”)',
+  },
+  {
+    value: 'deceptive_discriminatory',
+    label: 'Deceptive and discriminatory',
+    meaning: 'Category 3 — deception / discrimination',
+  },
 ] as const;
+
+/** Plain-language name for a slug (for UI); falls back to slug if unknown. */
+export function categoryTitle(slug: string): string {
+  const o = COMPLAINT_CATEGORY_OPTIONS.find((x) => x.value === slug);
+  return o?.label ?? slug;
+}
 
 export const MIN_COMPLAINT_CATEGORY_PICKS = 1;
 export const MAX_COMPLAINT_CATEGORY_PICKS = 2;

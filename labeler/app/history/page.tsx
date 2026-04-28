@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { COMPLAINT_CATEGORY_OPTIONS } from '@/lib/options';
+import { COMPLAINT_CATEGORY_OPTIONS, categoryTitle } from '@/lib/options';
 
 type MyLabel = {
   id: number;
@@ -23,7 +23,7 @@ export default function History() {
   const [error, setError] = useState<string | null>(null);
   const [expandedId, setExpandedId] = useState<number | null>(null);
 
-  const lookup = useMemo((): Map<string, string> => {
+  const meaningBySlug = useMemo((): Map<string, string> => {
     return new Map(COMPLAINT_CATEGORY_OPTIONS.map((o) => [o.value, o.meaning]));
   }, []);
 
@@ -31,8 +31,9 @@ export default function History() {
     const tags = Array.isArray(c) ? c : c ? [c] : [];
     return tags
       .map((slug) => {
-        const m = lookup.get(slug);
-        return m ? `${slug} — ${m}` : slug;
+        const title = categoryTitle(slug);
+        const m = meaningBySlug.get(slug);
+        return m ? `${title} — ${m}` : title;
       })
       .join(' · ');
   }
