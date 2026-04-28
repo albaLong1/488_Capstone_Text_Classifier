@@ -1,23 +1,36 @@
-export const UNFAIRNESS_OPTIONS = [
-  { value: 'unaware_of_charge', label: 'Unaware of charge', hint: 'hidden fee, unauthorized charge, deceptive pricing' },
-  { value: 'excessive_charge', label: 'Excessive charge', hint: 'overdraft, rate discrimination' },
-  { value: 'delay', label: 'Delay on payment / modification', hint: '' },
-  { value: 'unethical_collections', label: 'Unethical collections', hint: '' },
-  { value: 'none_other', label: 'None / Other', hint: '' },
+/** Stored in DB and CSV as `value` (slug). Each label is 1–2 slugs (deduped, sorted). */
+export const COMPLAINT_CATEGORY_OPTIONS = [
+  { value: 'improper_charges', meaning: 'Category 1 — financial / dollar dispute' },
+  { value: 'improper_process', meaning: 'Category 2 — procedural / admin (incl. “none clearly fit”)' },
+  { value: 'deceptive_discriminatory', meaning: 'Category 3 — deception / discrimination' },
 ] as const;
 
-export const JUSTICE_OPTIONS = [
-  { value: 'distributive', label: 'Distributive', hint: 'unfairness in the DECISION' },
-  { value: 'procedural', label: 'Procedural', hint: 'unfairness in the PROCESS' },
-  { value: 'interactional', label: 'Interactional', hint: 'unfairness in PERSONAL INTERACTION' },
-] as const;
+export const MIN_COMPLAINT_CATEGORY_PICKS = 1;
+export const MAX_COMPLAINT_CATEGORY_PICKS = 2;
 
-export const SEVERITY_OPTIONS = [
-  { value: 'low', label: 'Low', hint: '≤ $100, one-off, low emotional tone, no regulatory risk' },
-  { value: 'medium', label: 'Medium', hint: '$100–1,000, repeated issue, customer frustrated, early compliance concern' },
-  { value: 'high', label: 'High', hint: '$1,000+, fraud / discrimination / legal threat / severe distress' },
-] as const;
+export const VALID_COMPLAINT_CATEGORY: Set<string> = new Set(
+  COMPLAINT_CATEGORY_OPTIONS.map((o) => o.value),
+);
 
-export const VALID_UNFAIRNESS: Set<string> = new Set(UNFAIRNESS_OPTIONS.map((o) => o.value));
-export const VALID_JUSTICE: Set<string> = new Set(JUSTICE_OPTIONS.map((o) => o.value));
-export const VALID_SEVERITY: Set<string> = new Set(SEVERITY_OPTIONS.map((o) => o.value));
+/** Accepts a single slug string or an array; returns sorted unique slugs, or null if invalid. */
+export function normalizeComplaintCategories(raw: unknown): string[] | null {
+  const items: unknown[] = Array.isArray(raw)
+    ? raw
+    : typeof raw === 'string' && raw.trim()
+      ? [raw.trim()]
+      : [];
+  const out: string[] = [];
+  for (const x of items) {
+    if (typeof x !== 'string') return null;
+    const v = x.trim();
+    if (!VALID_COMPLAINT_CATEGORY.has(v)) return null;
+    if (!out.includes(v)) out.push(v);
+  }
+  if (
+    out.length < MIN_COMPLAINT_CATEGORY_PICKS ||
+    out.length > MAX_COMPLAINT_CATEGORY_PICKS
+  ) {
+    return null;
+  }
+  return out.slice().sort();
+}

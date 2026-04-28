@@ -46,7 +46,11 @@ export default function Admin() {
       )}
 
       <h2 style={{ marginTop: 24 }}>Export CSV</h2>
-      <p>The CSV contains every complaint plus each labeler&apos;s three tags. Rows with 3 labelers include a majority-vote consensus column per dimension.</p>
+      <p>
+        Download <strong>human_category_labels.csv</strong> — one row per complaint id with only
+        human ratings (names, category slugs, timestamps, consensus). It does not include the
+        original mortgage narrative or issue fields.
+      </p>
       <input
         type="password"
         value={password}

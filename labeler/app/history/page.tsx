@@ -2,14 +2,12 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { JUSTICE_OPTIONS, SEVERITY_OPTIONS, UNFAIRNESS_OPTIONS } from '@/lib/options';
+import { COMPLAINT_CATEGORY_OPTIONS } from '@/lib/options';
 
 type MyLabel = {
   id: number;
   complaint_id: number;
-  unfairness_type: string[];
-  justice_violation: string;
-  severity: string;
+  complaint_category: string[] | string;
   created_at: string;
   complaints: {
     issue: string | null;
@@ -25,15 +23,19 @@ export default function History() {
   const [error, setError] = useState<string | null>(null);
   const [expandedId, setExpandedId] = useState<number | null>(null);
 
-  const lookup = useMemo(() => {
-    const mk = (opts: readonly { value: string; label: string }[]) =>
-      new Map(opts.map((o) => [o.value, o.label]));
-    return {
-      unfairness: mk(UNFAIRNESS_OPTIONS),
-      justice: mk(JUSTICE_OPTIONS),
-      severity: mk(SEVERITY_OPTIONS),
-    };
+  const lookup = useMemo((): Map<string, string> => {
+    return new Map(COMPLAINT_CATEGORY_OPTIONS.map((o) => [o.value, o.meaning]));
   }, []);
+
+  function formatCategories(c: string[] | string): string {
+    const tags = Array.isArray(c) ? c : c ? [c] : [];
+    return tags
+      .map((slug) => {
+        const m = lookup.get(slug);
+        return m ? `${slug} — ${m}` : slug;
+      })
+      .join(' · ');
+  }
 
   useEffect(() => {
     const saved = localStorage.getItem('labeler_name');
@@ -92,39 +94,27 @@ export default function History() {
               <strong>ID:</strong> {l.complaint_id}
               {l.complaints?.issue ? (
                 <>
-                  {' '}· <strong>Issue:</strong> {l.complaints.issue}
+                  {' '}
+                  · <strong>Issue:</strong> {l.complaints.issue}
                 </>
               ) : null}
               {l.complaints?.sub_issue ? (
                 <>
-                  {' '}· <strong>Sub-issue:</strong> {l.complaints.sub_issue}
+                  {' '}
+                  · <strong>Sub-issue:</strong> {l.complaints.sub_issue}
                 </>
-              ) : null}
-              {' '}· <strong>Labeled:</strong> {new Date(l.created_at).toLocaleString()}
+              ) : null}{' '}
+              · <strong>Labeled:</strong> {new Date(l.created_at).toLocaleString()}
             </div>
             <div className="text">{preview || '(no narrative)'}</div>
             {narrative.length > 300 && (
-              <button
-                className="link"
-                onClick={() => setExpandedId(expanded ? null : l.id)}
-              >
+              <button className="link" onClick={() => setExpandedId(expanded ? null : l.id)}>
                 {expanded ? 'Show less' : 'Show full narrative'}
               </button>
             )}
             <div style={{ marginTop: 10, fontSize: 13, lineHeight: 1.7 }}>
               <div>
-                <strong>Unfairness:</strong>{' '}
-                {(Array.isArray(l.unfairness_type) ? l.unfairness_type : [])
-                  .map((v) => lookup.unfairness.get(v) ?? v)
-                  .join(', ') || '—'}
-              </div>
-              <div>
-                <strong>Justice:</strong>{' '}
-                {lookup.justice.get(l.justice_violation) ?? l.justice_violation}
-              </div>
-              <div>
-                <strong>Severity:</strong>{' '}
-                {lookup.severity.get(l.severity) ?? l.severity}
+                <strong>Categories:</strong> {formatCategories(l.complaint_category)}
               </div>
             </div>
           </div>

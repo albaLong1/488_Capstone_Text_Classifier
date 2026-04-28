@@ -13,7 +13,7 @@ export async function GET(req: Request) {
   const { data, error } = await supabase
     .from('labels')
     .select(
-      'id, complaint_id, unfairness_type, justice_violation, severity, created_at, complaints(issue, sub_issue, complaint_what_happened)',
+      'id, complaint_id, complaint_category, created_at, complaints(issue, sub_issue, complaint_what_happened)',
     )
     .eq('labeler_name', name)
     .order('created_at', { ascending: false });

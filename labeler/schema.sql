@@ -12,9 +12,15 @@ create table if not exists labels (
   id bigserial primary key,
   complaint_id bigint not null references complaints(id) on delete cascade,
   labeler_name text not null,
-  unfairness_type text[] not null check (array_length(unfairness_type, 1) >= 1),
-  justice_violation text not null,
-  severity text not null,
+  complaint_category text[] not null
+    check (
+      cardinality(complaint_category) between 1 and 2
+      and complaint_category <@ array[
+        'improper_charges',
+        'improper_process',
+        'deceptive_discriminatory'
+      ]::text[]
+    ),
   created_at timestamptz not null default now(),
   unique (complaint_id, labeler_name)
 );

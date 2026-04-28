@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seed": "node --env-file=.env.local scripts/seed.mjs"
+    "seed": "node --env-file=.env.local scripts/seed.mjs",
+    "clear-labels": "node --env-file=.env.local scripts/clear-labels.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
