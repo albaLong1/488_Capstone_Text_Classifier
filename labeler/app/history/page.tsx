@@ -23,7 +23,7 @@ export default function History() {
   const [error, setError] = useState<string | null>(null);
   const [expandedId, setExpandedId] = useState<number | null>(null);
 
-  const lookup = useMemo(() => {
+  const lookup = useMemo((): Map<string, string> => {
     return new Map(COMPLAINT_CATEGORY_OPTIONS.map((o) => [o.value, o.meaning]));
   }, []);
 
