@@ -1,2 +1,13 @@
 .venv/
 .env
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model training artifacts (multi-GB checkpoints, not for git)
+specialist_model_artifacts/
