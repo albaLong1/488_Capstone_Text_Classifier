@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c \"import csv; r=list\\(csv.DictReader\\(open\\('/Users/aryanchoudhary/VSCodeProjects/COMP_488/488_Capstone_Text_Classifier/data/mortgage_holdout_1000.csv'\\)\\)\\); print\\('rows', len\\(r\\)\\); print\\('cols', list\\(r[0].keys\\(\\)\\)\\)\")"
+      "Bash(python3 -c \"import csv; r=list\\(csv.DictReader\\(open\\('/Users/aryanchoudhary/VSCodeProjects/COMP_488/488_Capstone_Text_Classifier/data/mortgage_holdout_1000.csv'\\)\\)\\); print\\('rows', len\\(r\\)\\); print\\('cols', list\\(r[0].keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import csv; r=csv.DictReader\\(open\\('/Users/aryanchoudhary/VSCodeProjects/COMP_488/488_Capstone_Text_Classifier/data/mortgage_train_15000.csv'\\)\\); print\\(r.fieldnames\\)\")",
+      "Bash(python run_train_categories.py --list)",
+      "Bash(python3 *)"
     ]
   }
 }
